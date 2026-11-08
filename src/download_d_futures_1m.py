@@ -9,6 +9,7 @@ from __future__ import annotations
 import concurrent.futures
 import io
 import json
+import os
 import threading
 import time
 import zipfile
@@ -17,8 +18,8 @@ from pathlib import Path
 import pandas as pd
 import requests
 
-ROOT = Path(__file__).resolve().parent
-D = Path("D:/1mDataBinance")
+ROOT = Path(__file__).resolve().parents[1]
+D = Path(os.environ.get("BINANCE_DATA_ROOT", ROOT / "data/binance"))
 SOURCE = json.loads((ROOT / "output/binance_futures_exchange_info_2026-10-18.json").read_text(encoding="utf-8"))
 CONTRACTS = sorted((x for x in SOURCE["symbols"] if x.get("status") == "TRADING"
                     and x.get("contractType") == "PERPETUAL" and x.get("quoteAsset") == "USDT"

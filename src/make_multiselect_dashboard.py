@@ -1,7 +1,7 @@
 from pathlib import Path
 import json, re
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'output/v4_2020_2024_leverage_volume'
 path=OUT/'dashboard.html'
 s=path.read_text(encoding='utf-8')

@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 from plotly.offline import get_plotlyjs
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output/active_525_five_stage"
 SOURCE = OUT / "trades.parquet"
 

@@ -6,6 +6,7 @@ Futures OHLCV, activity, funding and 525-coin market context are point in time.
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import lightgbm as lgb
@@ -19,8 +20,8 @@ import leverage_scenarios as lev
 import download_d_active_525_funding as active_funding
 import v4_feature_build as old
 
-ROOT = Path(__file__).resolve().parent
-BAR_ROOT = Path("D:/1mDataBinance/active_525/futures_bars")
+ROOT = Path(__file__).resolve().parents[1]
+BAR_ROOT = Path(os.environ.get("BINANCE_DATA_ROOT", ROOT / "data/binance")) / "active_525/futures_bars"
 OUT = ROOT / "output/active_525_five_stage"
 OUT.mkdir(parents=True, exist_ok=True)
 WINDOWS = (5, 20, 50, 200)

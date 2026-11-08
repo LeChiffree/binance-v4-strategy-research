@@ -1,378 +1,3911 @@
 {
-  "scan_symbols": [
+  "asof_month": "2026-11",
+  "ranking_start": "2026-10-02",
+  "ranking_end": "2026-10-31",
+  "active_symbols": [
+    "0GUSDT",
+    "1000000MOGUSDT",
+    "1000BONKUSDT",
+    "1000CATUSDT",
+    "1000CHEEMSUSDT",
+    "1000FLOKIUSDT",
+    "1000LUNCUSDT",
+    "1000PEPEUSDT",
+    "1000RATSUSDT",
+    "1000SATSUSDT",
+    "1000SHIBUSDT",
+    "1000XECUSDT",
     "1INCHUSDT",
+    "1MBABYDOGEUSDT",
+    "2ZUSDT",
+    "4USDT",
     "AAVEUSDT",
+    "ACEUSDT",
     "ACHUSDT",
+    "ACTUSDT",
+    "ACUUSDT",
     "ADAUSDT",
+    "AEROUSDT",
+    "AEVOUSDT",
     "AGLDUSDT",
+    "AGTUSDT",
+    "AIAUSDT",
+    "AIGENSYNUSDT",
+    "AINUSDT",
+    "AIOTUSDT",
+    "AIOUSDT",
+    "AIXBTUSDT",
+    "AKEUSDT",
+    "AKTUSDT",
+    "ALCHUSDT",
     "ALGOUSDT",
     "ALICEUSDT",
-    "ANKRUSDT",
-    "APEUSDT",
-    "API3USDT",
-    "APTUSDT",
-    "ARBUSDT",
-    "ARKMUSDT",
-    "ARPAUSDT",
-    "ARUSDT",
-    "ASRUSDT",
-    "ASTRUSDT",
-    "ATOMUSDT",
-    "AUCTIONUSDT",
-    "AVAXUSDT",
-    "AXSUSDT",
-    "BANDUSDT",
-    "BATUSDT",
-    "BCHUSDT",
-    "BELUSDT",
-    "BICOUSDT",
-    "BNBUSDT",
-    "BNTUSDT",
-    "BTCUSDT",
-    "C98USDT",
-    "CAKEUSDT",
-    "CELOUSDT",
-    "CELRUSDT",
-    "CFXUSDT",
-    "CHRUSDT",
-    "CHZUSDT",
-    "CKBUSDT",
-    "COMPUSDT",
-    "COTIUSDT",
-    "CRVUSDT",
-    "CTSIUSDT",
-    "CVXUSDT",
-    "CYBERUSDT",
-    "DASHUSDT",
-    "DIAUSDT",
-    "DOGEUSDT",
-    "DOTUSDT",
-    "DUSKUSDT",
-    "DYDXUSDT",
-    "EDUUSDT",
-    "EGLDUSDT",
-    "ENJUSDT",
-    "ENSUSDT",
-    "ETCUSDT",
-    "ETHUSDT",
-    "FETUSDT",
-    "FIDAUSDT",
-    "FILUSDT",
-    "FLOWUSDT",
-    "GALAUSDT",
-    "GASUSDT",
-    "GLMUSDT",
-    "GMTUSDT",
-    "GMXUSDT",
-    "GRTUSDT",
-    "GTCUSDT",
-    "HBARUSDT",
-    "HOTUSDT",
-    "ICPUSDT",
-    "IDUSDT",
-    "ILVUSDT",
-    "IMXUSDT",
-    "INJUSDT",
-    "IOSTUSDT",
-    "IOTAUSDT",
-    "IOTXUSDT",
-    "JASMYUSDT",
-    "JOEUSDT",
-    "JSTUSDT",
-    "KAVAUSDT",
-    "KNCUSDT",
-    "KSMUSDT",
-    "LDOUSDT",
-    "LINKUSDT",
-    "LPTUSDT",
-    "LQTYUSDT",
-    "LSKUSDT",
-    "LTCUSDT",
-    "MAGICUSDT",
-    "MANAUSDT",
-    "MASKUSDT",
-    "MAVUSDT",
-    "MINAUSDT",
-    "MOVRUSDT",
-    "MTLUSDT",
-    "NEARUSDT",
-    "NEOUSDT",
-    "NMRUSDT",
-    "OGNUSDT",
-    "OGUSDT",
-    "ONEUSDT",
-    "ONGUSDT",
-    "ONTUSDT",
-    "OPUSDT",
-    "PAXGUSDT",
-    "PENDLEUSDT",
-    "PEOPLEUSDT",
-    "PHAUSDT",
-    "POLYXUSDT",
-    "POWRUSDT",
-    "PUNDIXUSDT",
-    "QNTUSDT",
-    "QTUMUSDT",
-    "RAREUSDT",
-    "RIFUSDT",
-    "RLCUSDT",
-    "ROSEUSDT",
-    "RPLUSDT",
-    "RSRUSDT",
-    "RUNEUSDT",
-    "RVNUSDT",
-    "SANDUSDT",
-    "SEIUSDT",
-    "SFPUSDT",
-    "SKLUSDT",
-    "SNXUSDT",
-    "SOLUSDT",
-    "SPELLUSDT",
-    "SSVUSDT",
-    "STEEMUSDT",
-    "STXUSDT",
-    "SUIUSDT",
-    "SUNUSDT",
-    "SUPERUSDT",
-    "SUSHIUSDT",
-    "THETAUSDT",
-    "TLMUSDT",
-    "TRBUSDT",
-    "TRXUSDT",
-    "TUSDT",
-    "UMAUSDT",
-    "UNIUSDT",
-    "USTCUSDT",
-    "VETUSDT",
-    "WLDUSDT",
-    "WOOUSDT",
-    "XLMUSDT",
-    "XRPUSDT",
-    "XTZUSDT",
-    "XVGUSDT",
-    "XVSUSDT",
-    "YFIUSDT",
-    "YGGUSDT",
-    "ZECUSDT",
-    "ZENUSDT",
-    "ZILUSDT",
-    "ZRXUSDT"
-  ],
-  "context_symbols": [
-    "1INCHUSDT",
-    "AAVEUSDT",
-    "ACHUSDT",
-    "ACMUSDT",
-    "ADAUSDT",
-    "ADXUSDT",
-    "AGLDUSDT",
-    "ALGOUSDT",
-    "ALICEUSDT",
+    "ALLOUSDT",
+    "ALLUSDT",
     "ALPINEUSDT",
-    "AMPUSDT",
+    "ALTUSDT",
+    "ANIMEUSDT",
     "ANKRUSDT",
     "APEUSDT",
     "API3USDT",
+    "APRUSDT",
     "APTUSDT",
     "ARBUSDT",
+    "ARCUSDT",
+    "ARIAUSDT",
     "ARKMUSDT",
     "ARKUSDT",
     "ARPAUSDT",
     "ARUSDT",
+    "ARXUSDT",
     "ASRUSDT",
+    "ASTERUSDT",
     "ASTRUSDT",
-    "ATMUSDT",
+    "ATHUSDT",
     "ATOMUSDT",
+    "ATUSDT",
     "AUCTIONUSDT",
-    "AUDIOUSDT",
+    "AUSDT",
+    "AVAAIUSDT",
     "AVAUSDT",
     "AVAXUSDT",
+    "AVNTUSDT",
+    "AWEUSDT",
+    "AXLUSDT",
     "AXSUSDT",
+    "AZTECUSDT",
+    "B2USDT",
+    "BABYUSDT",
+    "BANANAS31USDT",
+    "BANANAUSDT",
     "BANDUSDT",
-    "BARUSDT",
+    "BANKUSDT",
+    "BANUSDT",
+    "BARDUSDT",
+    "BASEDUSDT",
+    "BASUSDT",
     "BATUSDT",
+    "BBUSDT",
     "BCHUSDT",
+    "BEAMXUSDT",
+    "BEATUSDT",
     "BELUSDT",
+    "BERAUSDT",
     "BICOUSDT",
+    "BIGTIMEUSDT",
+    "BILLUSDT",
+    "BIOUSDT",
+    "BIRBUSDT",
+    "BLESSUSDT",
+    "BLUAIUSDT",
+    "BLURUSDT",
+    "BMTUSDT",
     "BNBUSDT",
     "BNTUSDT",
+    "BOMEUSDT",
+    "BRETTUSDT",
+    "BREVUSDT",
+    "BROCCOLI714USDT",
+    "BROCCOLIF3BUSDT",
+    "BRUSDT",
+    "BSBUSDT",
+    "BSVUSDT",
+    "BTCDOMUSDT",
     "BTCUSDT",
+    "BTRUSDT",
+    "BTWUSDT",
+    "BULLAUSDT",
+    "BUSDT",
     "C98USDT",
     "CAKEUSDT",
+    "CAPUSDT",
+    "CARVUSDT",
+    "CATIUSDT",
+    "CCUSDT",
     "CELOUSDT",
     "CELRUSDT",
+    "CETUSUSDT",
+    "CFGUSDT",
     "CFXUSDT",
+    "CGPTUSDT",
+    "CHILLGUYUSDT",
+    "CHIPUSDT",
     "CHRUSDT",
     "CHZUSDT",
-    "CITYUSDT",
     "CKBUSDT",
+    "CLANKERUSDT",
+    "CLOUSDT",
+    "COAIUSDT",
+    "COLLECTUSDT",
     "COMPUSDT",
+    "COOKIEUSDT",
     "COTIUSDT",
+    "COWUSDT",
+    "CROSSUSDT",
     "CRVUSDT",
     "CTKUSDT",
+    "CTRUSDT",
     "CTSIUSDT",
+    "CTUSDT",
+    "CUSDT",
     "CVCUSDT",
     "CVXUSDT",
     "CYBERUSDT",
+    "CYSUSDT",
     "DASHUSDT",
-    "DCRUSDT",
+    "DATAIPUSDT",
+    "DEEPUSDT",
     "DEXEUSDT",
-    "DGBUSDT",
     "DIAUSDT",
-    "DODOUSDT",
+    "DODOXUSDT",
     "DOGEUSDT",
+    "DOGSUSDT",
+    "DOLOUSDT",
+    "DOODUSDT",
+    "DOSUSDT",
     "DOTUSDT",
+    "DRIFTUSDT",
     "DUSKUSDT",
     "DYDXUSDT",
+    "DYMUSDT",
+    "EDENUSDT",
+    "EDGEUSDT",
     "EDUUSDT",
     "EGLDUSDT",
+    "EIGENUSDT",
+    "ELSAUSDT",
+    "ENAUSDT",
     "ENJUSDT",
+    "ENSOUSDT",
     "ENSUSDT",
+    "ERAUSDT",
+    "ESPORTSUSDT",
+    "ESPUSDT",
     "ETCUSDT",
+    "ETHFIUSDT",
     "ETHUSDT",
+    "ETHWUSDT",
+    "EULUSDT",
+    "EVAAUSDT",
+    "FARTCOINUSDT",
     "FETUSDT",
+    "FFUSDT",
+    "FHEUSDT",
     "FIDAUSDT",
+    "FIGHTUSDT",
     "FILUSDT",
-    "FLOKIUSDT",
+    "FLOCKUSDT",
     "FLOWUSDT",
+    "FLUIDUSDT",
     "FLUXUSDT",
-    "FTTUSDT",
+    "FOGOUSDT",
+    "FOLKSUSDT",
+    "FORMUSDT",
+    "FRAXUSDT",
+    "FUSDT",
     "GALAUSDT",
     "GASUSDT",
-    "GLMRUSDT",
+    "GENIUSUSDT",
+    "GIGGLEUSDT",
     "GLMUSDT",
     "GMTUSDT",
     "GMXUSDT",
-    "GNOUSDT",
-    "GNSUSDT",
+    "GOATUSDT",
+    "GPSUSDT",
+    "GRAMUSDT",
+    "GRASSUSDT",
+    "GRIFFAINUSDT",
     "GRTUSDT",
+    "GRVTUSDT",
     "GTCUSDT",
+    "GUAUSDT",
+    "GUNUSDT",
+    "GUSDT",
+    "GWEIUSDT",
+    "HAEDALUSDT",
+    "HANAUSDT",
     "HBARUSDT",
+    "HEIUSDT",
+    "HEMIUSDT",
     "HIVEUSDT",
+    "HMSTRUSDT",
+    "HOLOUSDT",
+    "HOMEUSDT",
     "HOTUSDT",
+    "HUMAUSDT",
+    "HUSDT",
+    "HYPERUSDT",
+    "HYPEUSDT",
+    "ICNTUSDT",
     "ICPUSDT",
+    "IDOLUSDT",
     "IDUSDT",
     "ILVUSDT",
     "IMXUSDT",
+    "INITUSDT",
     "INJUSDT",
+    "INUSDT",
+    "INXUSDT",
     "IOSTUSDT",
     "IOTAUSDT",
     "IOTXUSDT",
-    "IQUSDT",
+    "IOUSDT",
+    "IRYSUSDT",
     "JASMYUSDT",
+    "JCTUSDT",
+    "JELLYJELLYUSDT",
     "JOEUSDT",
     "JSTUSDT",
-    "JUVUSDT",
+    "JTOUSDT",
+    "JUPUSDT",
+    "KAIAUSDT",
+    "KAITOUSDT",
+    "KASUSDT",
+    "KATUSDT",
     "KAVAUSDT",
+    "KERNELUSDT",
+    "KGENUSDT",
+    "KITEUSDT",
+    "KMNOUSDT",
     "KNCUSDT",
+    "KOMAUSDT",
     "KSMUSDT",
-    "LAZIOUSDT",
+    "LABUSDT",
+    "LAUSDT",
+    "LAYERUSDT",
     "LDOUSDT",
+    "LIGHTUSDT",
+    "LINEAUSDT",
     "LINKUSDT",
+    "LISTAUSDT",
+    "LITUSDT",
     "LPTUSDT",
     "LQTYUSDT",
     "LSKUSDT",
     "LTCUSDT",
-    "LUNAUSDT",
-    "LUNCUSDT",
+    "LUMIAUSDT",
+    "LUNA2USDT",
+    "LYNUSDT",
     "MAGICUSDT",
+    "MAGMAUSDT",
     "MANAUSDT",
+    "MANTAUSDT",
+    "MANTRAUSDT",
+    "MARSCOINUSDT",
     "MASKUSDT",
+    "MAVIAUSDT",
     "MAVUSDT",
-    "MBLUSDT",
+    "MEGAUSDT",
+    "MELANIAUSDT",
+    "MEMEUSDT",
+    "MERLUSDT",
+    "METISUSDT",
+    "METUSDT",
+    "MEUSDT",
+    "MEWUSDT",
     "MINAUSDT",
+    "MIRAUSDT",
+    "MMTUSDT",
+    "MOCAUSDT",
+    "MONUSDT",
+    "MOODENGUSDT",
+    "MORPHOUSDT",
+    "MOVEUSDT",
     "MOVRUSDT",
     "MTLUSDT",
+    "MUBARAKUSDT",
+    "MUSDT",
+    "MYXUSDT",
+    "NAORISUSDT",
     "NEARUSDT",
+    "NEIROUSDT",
     "NEOUSDT",
-    "NEXOUSDT",
+    "NEWTUSDT",
+    "NIGHTUSDT",
+    "NILUSDT",
     "NMRUSDT",
+    "NOMUSDT",
+    "NOTUSDT",
+    "NXPCUSDT",
     "OGNUSDT",
     "OGUSDT",
+    "ONDOUSDT",
     "ONEUSDT",
     "ONGUSDT",
     "ONTUSDT",
+    "ONUSDT",
+    "OPENUSDT",
+    "OPGUSDT",
+    "OPNUSDT",
     "OPUSDT",
-    "OSMOUSDT",
+    "ORCAUSDT",
+    "ORDERUSDT",
+    "ORDIUSDT",
+    "OUSDT",
+    "PARTIUSDT",
     "PAXGUSDT",
     "PENDLEUSDT",
+    "PENGUUSDT",
     "PEOPLEUSDT",
-    "PEPEUSDT",
+    "PHAROSUSDT",
     "PHAUSDT",
+    "PIEVERSEUSDT",
+    "PIPPINUSDT",
+    "PIXELUSDT",
+    "PLAYUSDT",
+    "PLUMEUSDT",
+    "PNUTUSDT",
+    "POLUSDT",
     "POLYXUSDT",
-    "PORTOUSDT",
+    "PONSUSDT",
+    "POPCATUSDT",
+    "PORTALUSDT",
+    "POWERUSDT",
     "POWRUSDT",
+    "PREDICTUSDT",
+    "PRLUSDT",
     "PROMUSDT",
-    "PSGUSDT",
+    "PROVEUSDT",
+    "PUMPUSDT",
     "PUNDIXUSDT",
-    "QIUSDT",
-    "QKCUSDT",
+    "PYTHUSDT",
     "QNTUSDT",
     "QTUMUSDT",
-    "QUICKUSDT",
-    "RADUSDT",
+    "QUSDT",
     "RAREUSDT",
-    "RAYUSDT",
-    "REQUSDT",
+    "RAVEUSDT",
+    "RAYSOLUSDT",
+    "RECALLUSDT",
+    "REDUSDT",
+    "RENDERUSDT",
+    "RESOLVUSDT",
+    "REUSDT",
+    "REZUSDT",
     "RIFUSDT",
+    "RIVERUSDT",
     "RLCUSDT",
+    "ROBOUSDT",
+    "RONINUSDT",
     "ROSEUSDT",
     "RPLUSDT",
     "RSRUSDT",
     "RUNEUSDT",
     "RVNUSDT",
+    "SAFEUSDT",
+    "SAGAUSDT",
+    "SAHARAUSDT",
     "SANDUSDT",
     "SANTOSUSDT",
-    "SCUSDT",
+    "SAPIENUSDT",
+    "SCRUSDT",
     "SEIUSDT",
+    "SENTUSDT",
     "SFPUSDT",
-    "SHIBUSDT",
+    "SHELLUSDT",
+    "SIGNUSDT",
+    "SIRENUSDT",
     "SKLUSDT",
+    "SKRUSDT",
+    "SKYAIUSDT",
+    "SKYUSDT",
     "SLPUSDT",
+    "SLXUSDT",
     "SNXUSDT",
     "SOLUSDT",
+    "SOLVUSDT",
+    "SOMIUSDT",
+    "SONICUSDT",
+    "SOONUSDT",
+    "SOPHUSDT",
+    "SPACEUSDT",
     "SPELLUSDT",
+    "SPKUSDT",
+    "SPORTFUNUSDT",
+    "SPXUSDT",
+    "SQDUSDT",
     "SSVUSDT",
+    "STABLEUSDT",
+    "STARUSDT",
+    "STBLUSDT",
     "STEEMUSDT",
-    "STRAXUSDT",
+    "STOUSDT",
+    "STRKUSDT",
     "STXUSDT",
     "SUIUSDT",
     "SUNUSDT",
     "SUPERUSDT",
+    "SUSDT",
     "SUSHIUSDT",
+    "SWARMSUSDT",
+    "SXTUSDT",
     "SYNUSDT",
-    "TFUELUSDT",
+    "SYRUPUSDT",
+    "TACUSDT",
+    "TAGUSDT",
+    "TAIKOUSDT",
+    "TAKEUSDT",
+    "TAOUSDT",
+    "TAUSDT",
     "THETAUSDT",
-    "TKOUSDT",
+    "THEUSDT",
+    "TIAUSDT",
     "TLMUSDT",
+    "TNSRUSDT",
+    "TOSHIUSDT",
+    "TOWNSUSDT",
+    "TRADOORUSDT",
     "TRBUSDT",
+    "TREEUSDT",
+    "TRIAUSDT",
+    "TRUMPUSDT",
+    "TRUSTUSDT",
+    "TRUTHUSDT",
     "TRXUSDT",
+    "TSTUSDT",
+    "TURBOUSDT",
+    "TURTLEUSDT",
     "TUSDT",
-    "TUSDUSDT",
+    "TUTUSDT",
     "TWTUSDT",
+    "UAIUSDT",
+    "UBUSDT",
     "UMAUSDT",
     "UNIUSDT",
+    "USDCUSDT",
+    "USELESSUSDT",
     "USTCUSDT",
+    "USUALUSDT",
+    "USUSDT",
+    "VANAUSDT",
+    "VELVETUSDT",
     "VETUSDT",
+    "VIRTUALUSDT",
     "VTHOUSDT",
+    "VVVUSDT",
+    "WALUSDT",
     "WAXPUSDT",
-    "WBETHUSDT",
-    "WBTCUSDT",
-    "WINUSDT",
+    "WCTUSDT",
+    "WETUSDT",
+    "WIFUSDT",
     "WLDUSDT",
+    "WLFIUSDT",
     "WOOUSDT",
-    "XECUSDT",
+    "WUSDT",
+    "XAIUSDT",
+    "XANUSDT",
+    "XAUTUSDT",
     "XLMUSDT",
-    "XNOUSDT",
+    "XMRUSDT",
+    "XNYUSDT",
+    "XPINUSDT",
+    "XPLUSDT",
     "XRPUSDT",
     "XTZUSDT",
     "XVGUSDT",
     "XVSUSDT",
+    "YBUSDT",
     "YFIUSDT",
     "YGGUSDT",
+    "ZAMAUSDT",
+    "ZBTUSDT",
     "ZECUSDT",
     "ZENUSDT",
+    "ZEREBROUSDT",
+    "ZESTUSDT",
+    "ZETAUSDT",
     "ZILUSDT",
-    "ZRXUSDT"
+    "ZKCUSDT",
+    "ZKPUSDT",
+    "ZKUSDT",
+    "ZORAUSDT",
+    "ZROUSDT",
+    "ZRXUSDT",
+    "哈基米USDT",
+    "币安人生USDT",
+    "我踏马来了USDT",
+    "牛来USDT",
+    "龙虾USDT"
+  ],
+  "context_symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "ZECUSDT",
+    "SOLUSDT",
+    "NEARUSDT",
+    "XRPUSDT",
+    "HYPEUSDT",
+    "BNBUSDT",
+    "DOGEUSDT",
+    "1000PEPEUSDT",
+    "WLDUSDT",
+    "ENAUSDT",
+    "SUIUSDT",
+    "QUSDT",
+    "PUMPUSDT",
+    "UNIUSDT",
+    "STRKUSDT",
+    "BTWUSDT",
+    "ADAUSDT",
+    "QNTUSDT",
+    "IRYSUSDT",
+    "SANDUSDT",
+    "AVAXUSDT",
+    "FILUSDT",
+    "RLCUSDT",
+    "LINKUSDT",
+    "TAOUSDT",
+    "AAVEUSDT",
+    "JCTUSDT",
+    "GTCUSDT",
+    "AGTUSDT",
+    "AINUSDT",
+    "TIAUSDT",
+    "ONDOUSDT",
+    "龙虾USDT",
+    "ARBUSDT",
+    "INJUSDT",
+    "BRUSDT",
+    "USUSDT",
+    "BCHUSDT",
+    "LTCUSDT",
+    "MAGICUSDT",
+    "DOODUSDT",
+    "TRUMPUSDT",
+    "ZROUSDT",
+    "PAXGUSDT",
+    "APRUSDT",
+    "LITUSDT",
+    "AKEUSDT",
+    "XMRUSDT",
+    "DOTUSDT",
+    "OGNUSDT",
+    "FETUSDT",
+    "PENGUUSDT",
+    "MAGMAUSDT",
+    "TRXUSDT",
+    "APTUSDT",
+    "BIRBUSDT",
+    "IOSTUSDT",
+    "WUSDT",
+    "XLMUSDT",
+    "BATUSDT",
+    "CAPUSDT",
+    "OPUSDT",
+    "PONSUSDT",
+    "WALUSDT",
+    "ASTERUSDT",
+    "HBARUSDT",
+    "MOVRUSDT",
+    "METUSDT",
+    "ERAUSDT",
+    "CTUSDT",
+    "XAUTUSDT",
+    "IDOLUSDT",
+    "ORDERUSDT",
+    "XPLUSDT",
+    "EVAAUSDT",
+    "SUSDT",
+    "ORCAUSDT",
+    "LSKUSDT",
+    "BULLAUSDT",
+    "VVVUSDT",
+    "ICNTUSDT",
+    "RSRUSDT",
+    "ZEREBROUSDT",
+    "DASHUSDT",
+    "CRVUSDT",
+    "1000SHIBUSDT",
+    "KAIAUSDT",
+    "NILUSDT",
+    "PYTHUSDT",
+    "AEROUSDT",
+    "CHIPUSDT",
+    "LUMIAUSDT",
+    "ICPUSDT",
+    "RAYSOLUSDT",
+    "ATOMUSDT",
+    "USELESSUSDT",
+    "BEAMXUSDT",
+    "MUBARAKUSDT",
+    "BMTUSDT",
+    "NMRUSDT",
+    "ETHFIUSDT",
+    "PARTIUSDT",
+    "GRASSUSDT",
+    "AVAUSDT",
+    "FARTCOINUSDT",
+    "RENDERUSDT",
+    "ZKUSDT",
+    "MINAUSDT",
+    "CFXUSDT",
+    "ETCUSDT",
+    "JUPUSDT",
+    "SIRENUSDT",
+    "MARSCOINUSDT",
+    "DOSUSDT",
+    "ALTUSDT",
+    "LDOUSDT",
+    "INITUSDT",
+    "VIRTUALUSDT",
+    "ARIAUSDT",
+    "牛来USDT",
+    "STXUSDT",
+    "PHAUSDT",
+    "WLFIUSDT",
+    "SEIUSDT",
+    "1000BONKUSDT",
+    "TRUTHUSDT",
+    "BLESSUSDT",
+    "MONUSDT",
+    "ALGOUSDT",
+    "PENDLEUSDT",
+    "JTOUSDT",
+    "EIGENUSDT",
+    "WIFUSDT",
+    "GALAUSDT",
+    "NIGHTUSDT",
+    "ONEUSDT",
+    "ZAMAUSDT",
+    "POLUSDT",
+    "HUMAUSDT",
+    "BEATUSDT",
+    "PROMUSDT",
+    "TUSDT",
+    "ARCUSDT",
+    "AXSUSDT",
+    "BLURUSDT",
+    "GRAMUSDT",
+    "ONUSDT",
+    "BOMEUSDT",
+    "LYNUSDT",
+    "MANAUSDT",
+    "SOPHUSDT",
+    "BANKUSDT",
+    "ARKUSDT",
+    "CKBUSDT",
+    "SOONUSDT",
+    "SKYUSDT",
+    "LABUSDT",
+    "MORPHOUSDT",
+    "BTRUSDT",
+    "INUSDT",
+    "RIVERUSDT",
+    "ACEUSDT",
+    "ARUSDT",
+    "COMPUSDT",
+    "API3USDT",
+    "APEUSDT",
+    "PLUMEUSDT",
+    "CAKEUSDT",
+    "VELVETUSDT",
+    "DUSKUSDT",
+    "ZENUSDT",
+    "MEGAUSDT",
+    "SKLUSDT",
+    "BILLUSDT",
+    "ORDIUSDT",
+    "UAIUSDT",
+    "ENJUSDT",
+    "SENTUSDT",
+    "GRIFFAINUSDT",
+    "COTIUSDT",
+    "SYNUSDT",
+    "RUNEUSDT",
+    "CCUSDT",
+    "TAGUSDT",
+    "HAEDALUSDT",
+    "REZUSDT",
+    "LIGHTUSDT",
+    "LAUSDT",
+    "TRBUSDT",
+    "SPXUSDT",
+    "XANUSDT",
+    "CTSIUSDT",
+    "RVNUSDT",
+    "BERAUSDT",
+    "币安人生USDT",
+    "KATUSDT",
+    "CHZUSDT",
+    "STBLUSDT",
+    "COLLECTUSDT",
+    "AUSDT",
+    "1000FLOKIUSDT",
+    "SAGAUSDT",
+    "GRVTUSDT",
+    "KAITOUSDT",
+    "KMNOUSDT",
+    "HEMIUSDT",
+    "PIXELUSDT",
+    "ATHUSDT",
+    "GWEIUSDT",
+    "DODOXUSDT",
+    "ANIMEUSDT",
+    "2ZUSDT",
+    "TREEUSDT",
+    "SUPERUSDT",
+    "FLUIDUSDT",
+    "JASMYUSDT",
+    "SCRUSDT",
+    "IOUSDT",
+    "VETUSDT",
+    "ESPORTSUSDT",
+    "BASEDUSDT",
+    "REUSDT",
+    "EDUUSDT",
+    "SYRUPUSDT",
+    "AIOTUSDT",
+    "CTKUSDT",
+    "0GUSDT",
+    "LPTUSDT",
+    "AKTUSDT",
+    "GIGGLEUSDT",
+    "ELSAUSDT",
+    "VTHOUSDT",
+    "ALICEUSDT",
+    "ZILUSDT",
+    "1000RATSUSDT",
+    "OPNUSDT",
+    "PEOPLEUSDT",
+    "NXPCUSDT",
+    "CTRUSDT",
+    "AIAUSDT",
+    "MEWUSDT",
+    "BIOUSDT",
+    "NEIROUSDT",
+    "ENSUSDT",
+    "SKYAIUSDT",
+    "DATAIPUSDT",
+    "DEXEUSDT",
+    "NOMUSDT",
+    "REDUSDT",
+    "TAUSDT",
+    "FFUSDT",
+    "BABYUSDT",
+    "ATUSDT",
+    "MANTAUSDT",
+    "IOTAUSDT",
+    "FOLKSUSDT",
+    "KITEUSDT",
+    "JSTUSDT",
+    "METISUSDT",
+    "CVXUSDT",
+    "4USDT",
+    "FLOCKUSDT",
+    "CYBERUSDT",
+    "DYDXUSDT",
+    "EGLDUSDT",
+    "KASUSDT",
+    "C98USDT",
+    "RESOLVUSDT",
+    "OPENUSDT",
+    "IMXUSDT",
+    "GRTUSDT",
+    "ARXUSDT",
+    "ESPUSDT",
+    "AXLUSDT",
+    "CFGUSDT",
+    "EDGEUSDT",
+    "ONGUSDT",
+    "THETAUSDT",
+    "CLOUSDT",
+    "AIOUSDT",
+    "GUSDT",
+    "TUTUSDT",
+    "KAVAUSDT",
+    "ENSOUSDT",
+    "ARKMUSDT",
+    "NEOUSDT",
+    "WETUSDT",
+    "GMTUSDT",
+    "MUSDT",
+    "ALLOUSDT",
+    "1000LUNCUSDT",
+    "XPINUSDT",
+    "ARPAUSDT",
+    "SPKUSDT",
+    "MASKUSDT",
+    "IOTXUSDT",
+    "AZTECUSDT",
+    "AVNTUSDT",
+    "MOODENGUSDT",
+    "COWUSDT",
+    "UMAUSDT",
+    "ROBOUSDT",
+    "IDUSDT",
+    "BLUAIUSDT",
+    "EULUSDT",
+    "SAFEUSDT",
+    "GENIUSUSDT",
+    "XTZUSDT",
+    "XNYUSDT",
+    "OPGUSDT",
+    "GPSUSDT",
+    "BBUSDT",
+    "TRIAUSDT",
+    "SAHARAUSDT",
+    "AIGENSYNUSDT",
+    "CARVUSDT",
+    "HOMEUSDT",
+    "SOLVUSDT",
+    "STABLEUSDT",
+    "XAIUSDT",
+    "EDENUSDT",
+    "CYSUSDT",
+    "ZBTUSDT",
+    "BREVUSDT",
+    "KGENUSDT",
+    "PNUTUSDT",
+    "USDCUSDT",
+    "SUSHIUSDT",
+    "FORMUSDT",
+    "FOGOUSDT",
+    "STARUSDT",
+    "ROSEUSDT",
+    "FLOWUSDT",
+    "DYMUSDT",
+    "PLAYUSDT",
+    "MYXUSDT",
+    "UBUSDT",
+    "PIEVERSEUSDT",
+    "YFIUSDT",
+    "MANTRAUSDT",
+    "CELOUSDT",
+    "BIGTIMEUSDT",
+    "SPORTFUNUSDT",
+    "YGGUSDT",
+    "AVAAIUSDT",
+    "DEEPUSDT",
+    "GMXUSDT",
+    "PHAROSUSDT",
+    "ZKPUSDT",
+    "SNXUSDT",
+    "ACUUSDT",
+    "HANAUSDT",
+    "DIAUSDT",
+    "1000XECUSDT",
+    "RAVEUSDT",
+    "MERLUSDT",
+    "TAKEUSDT",
+    "BSBUSDT",
+    "CVCUSDT",
+    "BICOUSDT",
+    "ZORAUSDT",
+    "1INCHUSDT",
+    "LINEAUSDT",
+    "MOVEUSDT",
+    "TSTUSDT",
+    "PROVEUSDT",
+    "MMTUSDT",
+    "PIPPINUSDT",
+    "GOATUSDT",
+    "STEEMUSDT",
+    "RONINUSDT",
+    "HEIUSDT",
+    "KERNELUSDT",
+    "WCTUSDT",
+    "ZKCUSDT",
+    "HUSDT",
+    "ONTUSDT",
+    "RAREUSDT",
+    "MEMEUSDT",
+    "SLXUSDT",
+    "ACTUSDT",
+    "HYPERUSDT",
+    "FIDAUSDT",
+    "ZESTUSDT",
+    "LUNA2USDT",
+    "YBUSDT",
+    "WOOUSDT",
+    "ALPINEUSDT",
+    "BTCDOMUSDT",
+    "POLYXUSDT",
+    "POWERUSDT",
+    "TURBOUSDT",
+    "MIRAUSDT",
+    "TOWNSUSDT",
+    "NAORISUSDT",
+    "FIGHTUSDT",
+    "SXTUSDT",
+    "AEVOUSDT",
+    "CHRUSDT",
+    "BROCCOLI714USDT",
+    "ACHUSDT",
+    "SKRUSDT",
+    "COAIUSDT",
+    "MEUSDT",
+    "FUSDT",
+    "PRLUSDT",
+    "我踏马来了USDT",
+    "ANKRUSDT",
+    "INXUSDT",
+    "GUNUSDT",
+    "SHELLUSDT",
+    "HOTUSDT",
+    "BANDUSDT",
+    "KSMUSDT",
+    "ZETAUSDT",
+    "OUSDT",
+    "FLUXUSDT",
+    "DRIFTUSDT",
+    "BUSDT",
+    "CELRUSDT",
+    "POPCATUSDT",
+    "KOMAUSDT",
+    "TLMUSDT",
+    "NOTUSDT",
+    "PORTALUSDT",
+    "VANAUSDT",
+    "MTLUSDT",
+    "SOMIUSDT",
+    "TOSHIUSDT",
+    "RECALLUSDT",
+    "CUSDT",
+    "AIXBTUSDT",
+    "TNSRUSDT",
+    "CGPTUSDT",
+    "TACUSDT",
+    "ILVUSDT",
+    "SWARMSUSDT",
+    "BRETTUSDT",
+    "哈基米USDT",
+    "USUALUSDT",
+    "QTUMUSDT",
+    "SQDUSDT",
+    "TURTLEUSDT",
+    "RIFUSDT",
+    "SLPUSDT",
+    "MELANIAUSDT",
+    "POWRUSDT",
+    "AUCTIONUSDT",
+    "TRUSTUSDT",
+    "BELUSDT",
+    "CROSSUSDT",
+    "SPELLUSDT",
+    "BSVUSDT",
+    "TWTUSDT",
+    "STOUSDT",
+    "GASUSDT",
+    "1000SATSUSDT",
+    "LAYERUSDT",
+    "FRAXUSDT",
+    "AWEUSDT",
+    "ETHWUSDT",
+    "ZRXUSDT",
+    "SSVUSDT",
+    "PUNDIXUSDT",
+    "CHILLGUYUSDT",
+    "SIGNUSDT",
+    "TRADOORUSDT",
+    "NEWTUSDT",
+    "CATIUSDT",
+    "DOGSUSDT",
+    "THEUSDT",
+    "AGLDUSDT",
+    "XVGUSDT",
+    "CLANKERUSDT",
+    "MAVUSDT",
+    "BARDUSDT",
+    "HOLOUSDT",
+    "USTCUSDT",
+    "SPACEUSDT",
+    "HMSTRUSDT",
+    "KNCUSDT",
+    "SUNUSDT",
+    "FHEUSDT",
+    "CETUSUSDT",
+    "B2USDT",
+    "ALLUSDT",
+    "ASTRUSDT",
+    "JELLYJELLYUSDT",
+    "HIVEUSDT",
+    "COOKIEUSDT",
+    "GLMUSDT",
+    "BANUSDT",
+    "LISTAUSDT",
+    "GUAUSDT",
+    "1MBABYDOGEUSDT",
+    "BANANAS31USDT",
+    "MOCAUSDT",
+    "TAIKOUSDT",
+    "ASRUSDT",
+    "BASUSDT",
+    "SFPUSDT",
+    "WAXPUSDT",
+    "ALCHUSDT",
+    "SANTOSUSDT",
+    "SONICUSDT",
+    "OGUSDT",
+    "LQTYUSDT",
+    "SAPIENUSDT",
+    "RPLUSDT",
+    "MAVIAUSDT",
+    "1000000MOGUSDT",
+    "JOEUSDT",
+    "BROCCOLIF3BUSDT",
+    "BANANAUSDT",
+    "1000CHEEMSUSDT",
+    "XVSUSDT",
+    "DOLOUSDT",
+    "BNTUSDT",
+    "1000CATUSDT"
+  ],
+  "scan_symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "ZECUSDT",
+    "SOLUSDT",
+    "NEARUSDT",
+    "XRPUSDT",
+    "HYPEUSDT",
+    "BNBUSDT",
+    "DOGEUSDT",
+    "1000PEPEUSDT",
+    "WLDUSDT",
+    "ENAUSDT",
+    "SUIUSDT",
+    "QUSDT",
+    "PUMPUSDT",
+    "UNIUSDT",
+    "STRKUSDT",
+    "BTWUSDT",
+    "ADAUSDT",
+    "QNTUSDT",
+    "IRYSUSDT",
+    "SANDUSDT",
+    "AVAXUSDT",
+    "FILUSDT",
+    "RLCUSDT",
+    "LINKUSDT",
+    "TAOUSDT",
+    "AAVEUSDT",
+    "JCTUSDT",
+    "GTCUSDT",
+    "AGTUSDT",
+    "AINUSDT",
+    "TIAUSDT",
+    "ONDOUSDT",
+    "龙虾USDT",
+    "ARBUSDT",
+    "INJUSDT",
+    "BRUSDT",
+    "USUSDT",
+    "BCHUSDT",
+    "LTCUSDT",
+    "MAGICUSDT",
+    "DOODUSDT",
+    "TRUMPUSDT",
+    "ZROUSDT",
+    "PAXGUSDT",
+    "APRUSDT",
+    "LITUSDT",
+    "AKEUSDT",
+    "XMRUSDT",
+    "DOTUSDT",
+    "OGNUSDT",
+    "FETUSDT",
+    "PENGUUSDT",
+    "MAGMAUSDT",
+    "TRXUSDT",
+    "APTUSDT",
+    "BIRBUSDT",
+    "IOSTUSDT",
+    "WUSDT",
+    "XLMUSDT",
+    "BATUSDT",
+    "CAPUSDT",
+    "OPUSDT",
+    "PONSUSDT",
+    "WALUSDT",
+    "ASTERUSDT",
+    "HBARUSDT",
+    "MOVRUSDT",
+    "METUSDT",
+    "ERAUSDT",
+    "CTUSDT",
+    "XAUTUSDT",
+    "IDOLUSDT",
+    "ORDERUSDT",
+    "XPLUSDT",
+    "EVAAUSDT",
+    "SUSDT",
+    "ORCAUSDT",
+    "LSKUSDT",
+    "BULLAUSDT",
+    "VVVUSDT",
+    "ICNTUSDT",
+    "RSRUSDT",
+    "ZEREBROUSDT",
+    "DASHUSDT",
+    "CRVUSDT",
+    "1000SHIBUSDT",
+    "KAIAUSDT",
+    "NILUSDT",
+    "PYTHUSDT",
+    "AEROUSDT",
+    "CHIPUSDT",
+    "LUMIAUSDT",
+    "ICPUSDT",
+    "RAYSOLUSDT",
+    "ATOMUSDT",
+    "USELESSUSDT",
+    "BEAMXUSDT",
+    "MUBARAKUSDT",
+    "BMTUSDT",
+    "NMRUSDT",
+    "ETHFIUSDT",
+    "PARTIUSDT",
+    "GRASSUSDT",
+    "AVAUSDT",
+    "FARTCOINUSDT",
+    "RENDERUSDT",
+    "ZKUSDT",
+    "MINAUSDT",
+    "CFXUSDT",
+    "ETCUSDT",
+    "JUPUSDT",
+    "SIRENUSDT",
+    "MARSCOINUSDT",
+    "DOSUSDT",
+    "ALTUSDT",
+    "LDOUSDT",
+    "INITUSDT",
+    "VIRTUALUSDT",
+    "ARIAUSDT",
+    "牛来USDT",
+    "STXUSDT",
+    "PHAUSDT",
+    "WLFIUSDT",
+    "SEIUSDT",
+    "1000BONKUSDT",
+    "TRUTHUSDT",
+    "BLESSUSDT",
+    "MONUSDT",
+    "ALGOUSDT",
+    "PENDLEUSDT",
+    "JTOUSDT",
+    "EIGENUSDT",
+    "WIFUSDT",
+    "GALAUSDT",
+    "NIGHTUSDT",
+    "ONEUSDT",
+    "ZAMAUSDT",
+    "POLUSDT",
+    "HUMAUSDT",
+    "BEATUSDT",
+    "PROMUSDT",
+    "TUSDT",
+    "ARCUSDT",
+    "AXSUSDT",
+    "BLURUSDT",
+    "GRAMUSDT",
+    "ONUSDT",
+    "BOMEUSDT",
+    "LYNUSDT",
+    "MANAUSDT",
+    "SOPHUSDT",
+    "BANKUSDT",
+    "ARKUSDT",
+    "CKBUSDT",
+    "SOONUSDT",
+    "SKYUSDT",
+    "LABUSDT",
+    "MORPHOUSDT",
+    "BTRUSDT",
+    "INUSDT",
+    "RIVERUSDT",
+    "ACEUSDT",
+    "ARUSDT",
+    "COMPUSDT",
+    "API3USDT",
+    "APEUSDT",
+    "PLUMEUSDT",
+    "CAKEUSDT",
+    "VELVETUSDT",
+    "DUSKUSDT",
+    "ZENUSDT",
+    "MEGAUSDT",
+    "SKLUSDT",
+    "BILLUSDT",
+    "ORDIUSDT",
+    "UAIUSDT",
+    "ENJUSDT",
+    "SENTUSDT",
+    "GRIFFAINUSDT",
+    "COTIUSDT",
+    "SYNUSDT",
+    "RUNEUSDT",
+    "CCUSDT",
+    "TAGUSDT",
+    "HAEDALUSDT",
+    "REZUSDT",
+    "LIGHTUSDT",
+    "LAUSDT",
+    "TRBUSDT",
+    "SPXUSDT",
+    "XANUSDT",
+    "CTSIUSDT",
+    "RVNUSDT",
+    "BERAUSDT",
+    "币安人生USDT",
+    "KATUSDT",
+    "CHZUSDT",
+    "STBLUSDT",
+    "COLLECTUSDT",
+    "AUSDT",
+    "1000FLOKIUSDT",
+    "SAGAUSDT",
+    "GRVTUSDT",
+    "KAITOUSDT",
+    "KMNOUSDT",
+    "HEMIUSDT",
+    "PIXELUSDT",
+    "ATHUSDT",
+    "GWEIUSDT",
+    "DODOXUSDT",
+    "ANIMEUSDT",
+    "2ZUSDT",
+    "TREEUSDT",
+    "SUPERUSDT",
+    "FLUIDUSDT",
+    "JASMYUSDT",
+    "SCRUSDT",
+    "IOUSDT",
+    "VETUSDT",
+    "ESPORTSUSDT",
+    "BASEDUSDT",
+    "REUSDT",
+    "EDUUSDT",
+    "SYRUPUSDT",
+    "AIOTUSDT",
+    "CTKUSDT",
+    "0GUSDT",
+    "LPTUSDT",
+    "AKTUSDT",
+    "GIGGLEUSDT",
+    "ELSAUSDT",
+    "VTHOUSDT",
+    "ALICEUSDT",
+    "ZILUSDT",
+    "1000RATSUSDT",
+    "OPNUSDT",
+    "PEOPLEUSDT",
+    "NXPCUSDT",
+    "CTRUSDT",
+    "AIAUSDT",
+    "MEWUSDT",
+    "BIOUSDT",
+    "NEIROUSDT",
+    "ENSUSDT",
+    "SKYAIUSDT",
+    "DATAIPUSDT",
+    "DEXEUSDT",
+    "NOMUSDT"
+  ],
+  "ranking": [
+    {
+      "symbol": "BTCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 10762490364.690517
+    },
+    {
+      "symbol": "ETHUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7585958805.70763
+    },
+    {
+      "symbol": "ZECUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1647668069.875375
+    },
+    {
+      "symbol": "SOLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1590680841.34983
+    },
+    {
+      "symbol": "NEARUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 703156479.1445664
+    },
+    {
+      "symbol": "XRPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 673534569.4517835
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 627128922.7447776
+    },
+    {
+      "symbol": "BNBUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 357910224.0422867
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 348329937.98445153
+    },
+    {
+      "symbol": "1000PEPEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 310127810.8966233
+    },
+    {
+      "symbol": "WLDUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 275308410.4637201
+    },
+    {
+      "symbol": "ENAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 270461205.64797527
+    },
+    {
+      "symbol": "SUIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 259251423.45159867
+    },
+    {
+      "symbol": "QUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 241025935.15019086
+    },
+    {
+      "symbol": "PUMPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 227653299.3359612
+    },
+    {
+      "symbol": "UNIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 220359725.1936666
+    },
+    {
+      "symbol": "STRKUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 209382093.49823606
+    },
+    {
+      "symbol": "BTWUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 180104022.04075003
+    },
+    {
+      "symbol": "ADAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 179018606.2623633
+    },
+    {
+      "symbol": "QNTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 165505915.58436662
+    },
+    {
+      "symbol": "IRYSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 155670650.31288663
+    },
+    {
+      "symbol": "SANDUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 152021130.3035676
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 136936709.0182
+    },
+    {
+      "symbol": "FILUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 136250806.17755327
+    },
+    {
+      "symbol": "RLCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 127801183.68772064
+    },
+    {
+      "symbol": "LINKUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 125787535.94210465
+    },
+    {
+      "symbol": "TAOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 123039683.69491966
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 113382371.99203338
+    },
+    {
+      "symbol": "JCTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 113095751.90596339
+    },
+    {
+      "symbol": "GTCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 109711067.59638336
+    },
+    {
+      "symbol": "AGTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 108687001.18428643
+    },
+    {
+      "symbol": "AINUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 105116057.70065732
+    },
+    {
+      "symbol": "TIAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 104027737.49358334
+    },
+    {
+      "symbol": "ONDOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 101122189.11481197
+    },
+    {
+      "symbol": "龙虾USDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 95933616.74613431
+    },
+    {
+      "symbol": "ARBUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 92454726.49532714
+    },
+    {
+      "symbol": "INJUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 92013555.05695336
+    },
+    {
+      "symbol": "BRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 89449709.56211264
+    },
+    {
+      "symbol": "USUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 83584693.3905092
+    },
+    {
+      "symbol": "BCHUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 81123665.09873967
+    },
+    {
+      "symbol": "LTCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 78771381.03589633
+    },
+    {
+      "symbol": "MAGICUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 78367299.21176758
+    },
+    {
+      "symbol": "DOODUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 75963495.57518442
+    },
+    {
+      "symbol": "TRUMPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 72743969.70367765
+    },
+    {
+      "symbol": "ZROUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 69939303.65387169
+    },
+    {
+      "symbol": "PAXGUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 66680368.27494801
+    },
+    {
+      "symbol": "APRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 66087756.62758366
+    },
+    {
+      "symbol": "LITUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 66007491.04447035
+    },
+    {
+      "symbol": "AKEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 64685722.7176244
+    },
+    {
+      "symbol": "XMRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 63887249.85421166
+    },
+    {
+      "symbol": "DOTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 63650472.72228734
+    },
+    {
+      "symbol": "OGNUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 61973676.44559099
+    },
+    {
+      "symbol": "FETUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 61374120.19102
+    },
+    {
+      "symbol": "PENGUUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 59859934.2556845
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 59051555.04007732
+    },
+    {
+      "symbol": "TRXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 57334667.30607666
+    },
+    {
+      "symbol": "APTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 57066627.31179767
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 56873991.65980767
+    },
+    {
+      "symbol": "IOSTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 55651844.042342454
+    },
+    {
+      "symbol": "WUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 54779551.382872865
+    },
+    {
+      "symbol": "XLMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 50266919.24235568
+    },
+    {
+      "symbol": "BATUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 49687880.16064003
+    },
+    {
+      "symbol": "CAPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 48811423.53377467
+    },
+    {
+      "symbol": "OPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 48722602.60807873
+    },
+    {
+      "symbol": "PONSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 48141719.56255
+    },
+    {
+      "symbol": "WALUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 48015070.52188467
+    },
+    {
+      "symbol": "ASTERUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 45667383.88882001
+    },
+    {
+      "symbol": "HBARUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 45067166.05744633
+    },
+    {
+      "symbol": "MOVRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 45005802.46256063
+    },
+    {
+      "symbol": "METUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 43258942.91998668
+    },
+    {
+      "symbol": "ERAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 41578614.49293533
+    },
+    {
+      "symbol": "CTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 41103198.42949167
+    },
+    {
+      "symbol": "XAUTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 39881641.324120335
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 39601693.2847702
+    },
+    {
+      "symbol": "ORDERUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 38850443.165226005
+    },
+    {
+      "symbol": "XPLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 38609898.20104367
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 38419909.15848834
+    },
+    {
+      "symbol": "SUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 37924786.140907
+    },
+    {
+      "symbol": "ORCAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 37830702.80640667
+    },
+    {
+      "symbol": "LSKUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 36127965.296661
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 35926988.84661837
+    },
+    {
+      "symbol": "VVVUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 35834224.55542467
+    },
+    {
+      "symbol": "ICNTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 34587977.198433325
+    },
+    {
+      "symbol": "RSRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 34514062.62580229
+    },
+    {
+      "symbol": "ZEREBROUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 34267762.56886937
+    },
+    {
+      "symbol": "DASHUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 34124823.61492
+    },
+    {
+      "symbol": "CRVUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 33461216.474481
+    },
+    {
+      "symbol": "1000SHIBUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 33065001.1231363
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 31677966.842694663
+    },
+    {
+      "symbol": "NILUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 31590058.755278897
+    },
+    {
+      "symbol": "PYTHUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 31151571.051608335
+    },
+    {
+      "symbol": "AEROUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 30787591.064989004
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 30119895.59902333
+    },
+    {
+      "symbol": "LUMIAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 29721679.084239293
+    },
+    {
+      "symbol": "ICPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 29607496.177766666
+    },
+    {
+      "symbol": "RAYSOLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 29345890.59016466
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 29099375.076179672
+    },
+    {
+      "symbol": "USELESSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 28790848.05534834
+    },
+    {
+      "symbol": "BEAMXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 28778535.95958334
+    },
+    {
+      "symbol": "MUBARAKUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 28542241.778566997
+    },
+    {
+      "symbol": "BMTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 28114729.15223433
+    },
+    {
+      "symbol": "NMRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 28080990.795566678
+    },
+    {
+      "symbol": "ETHFIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 27416823.586599
+    },
+    {
+      "symbol": "PARTIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 26676410.99858833
+    },
+    {
+      "symbol": "GRASSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 26368221.54157767
+    },
+    {
+      "symbol": "AVAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 24951247.25556267
+    },
+    {
+      "symbol": "FARTCOINUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 24508796.823209003
+    },
+    {
+      "symbol": "RENDERUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 24359104.838816676
+    },
+    {
+      "symbol": "ZKUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 23617815.42757984
+    },
+    {
+      "symbol": "MINAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 23500440.948458664
+    },
+    {
+      "symbol": "CFXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 23456010.74821533
+    },
+    {
+      "symbol": "ETCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 23345434.163175333
+    },
+    {
+      "symbol": "JUPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 23092735.132610004
+    },
+    {
+      "symbol": "SIRENUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 23087948.032712333
+    },
+    {
+      "symbol": "MARSCOINUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 23047812.80694167
+    },
+    {
+      "symbol": "DOSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 22910381.12483
+    },
+    {
+      "symbol": "ALTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 22174061.864393
+    },
+    {
+      "symbol": "LDOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 21925337.585296676
+    },
+    {
+      "symbol": "INITUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 21472815.296809
+    },
+    {
+      "symbol": "VIRTUALUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 21029049.856844332
+    },
+    {
+      "symbol": "ARIAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 21014336.471827332
+    },
+    {
+      "symbol": "牛来USDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 20592134.204435665
+    },
+    {
+      "symbol": "STXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 20570784.698850002
+    },
+    {
+      "symbol": "PHAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 20241494.64507666
+    },
+    {
+      "symbol": "WLFIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 19869822.367629666
+    },
+    {
+      "symbol": "SEIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 19665151.315343995
+    },
+    {
+      "symbol": "1000BONKUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 19526165.127732467
+    },
+    {
+      "symbol": "TRUTHUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 19001577.276770867
+    },
+    {
+      "symbol": "BLESSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 18460650.9575361
+    },
+    {
+      "symbol": "MONUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 18341082.832732
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 18312663.427096594
+    },
+    {
+      "symbol": "PENDLEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 17680716.005793333
+    },
+    {
+      "symbol": "JTOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 17525583.991016667
+    },
+    {
+      "symbol": "EIGENUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 17494853.003071003
+    },
+    {
+      "symbol": "WIFUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 16797438.011517998
+    },
+    {
+      "symbol": "GALAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 16668150.058526035
+    },
+    {
+      "symbol": "NIGHTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 16490143.096705336
+    },
+    {
+      "symbol": "ONEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 16077410.255345684
+    },
+    {
+      "symbol": "ZAMAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 15879479.209299335
+    },
+    {
+      "symbol": "POLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 15743490.175497664
+    },
+    {
+      "symbol": "HUMAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 15597144.562768767
+    },
+    {
+      "symbol": "BEATUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 15396496.963503664
+    },
+    {
+      "symbol": "PROMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 15346215.310506672
+    },
+    {
+      "symbol": "TUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 15127310.542718362
+    },
+    {
+      "symbol": "ARCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 15074731.429335998
+    },
+    {
+      "symbol": "AXSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 15016792.199779995
+    },
+    {
+      "symbol": "BLURUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 15016213.2849849
+    },
+    {
+      "symbol": "GRAMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 14821825.759943334
+    },
+    {
+      "symbol": "ONUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 14755697.281071667
+    },
+    {
+      "symbol": "BOMEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 14648210.399593335
+    },
+    {
+      "symbol": "LYNUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 14194398.917385003
+    },
+    {
+      "symbol": "MANAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 14162592.494157337
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 12631785.365767399
+    },
+    {
+      "symbol": "BANKUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 12180665.894657334
+    },
+    {
+      "symbol": "ARKUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 12030267.715283334
+    },
+    {
+      "symbol": "CKBUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 11735011.88352133
+    },
+    {
+      "symbol": "SOONUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 11724410.049523333
+    },
+    {
+      "symbol": "SKYUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 11369307.307542332
+    },
+    {
+      "symbol": "LABUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 11295450.246785333
+    },
+    {
+      "symbol": "MORPHOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 11277640.758524336
+    },
+    {
+      "symbol": "BTRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 10874705.38120333
+    },
+    {
+      "symbol": "INUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 10547263.114328
+    },
+    {
+      "symbol": "RIVERUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 10534062.286863334
+    },
+    {
+      "symbol": "ACEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 10448329.642310414
+    },
+    {
+      "symbol": "ARUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 10404119.05132
+    },
+    {
+      "symbol": "COMPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 10307734.342063999
+    },
+    {
+      "symbol": "API3USDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 10253721.334436001
+    },
+    {
+      "symbol": "APEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 10134441.177956669
+    },
+    {
+      "symbol": "PLUMEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 10040540.325908333
+    },
+    {
+      "symbol": "CAKEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 9976362.12650667
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 9910473.756841999
+    },
+    {
+      "symbol": "DUSKUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 9526967.661057001
+    },
+    {
+      "symbol": "ZENUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 9396327.847586669
+    },
+    {
+      "symbol": "MEGAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 9206915.240459
+    },
+    {
+      "symbol": "SKLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 9004802.8651515
+    },
+    {
+      "symbol": "BILLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8923473.963511432
+    },
+    {
+      "symbol": "ORDIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8883116.812959999
+    },
+    {
+      "symbol": "UAIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8862246.311756667
+    },
+    {
+      "symbol": "ENJUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8835701.895303665
+    },
+    {
+      "symbol": "SENTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8831649.132927
+    },
+    {
+      "symbol": "GRIFFAINUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8714487.685231034
+    },
+    {
+      "symbol": "COTIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8602588.571778364
+    },
+    {
+      "symbol": "SYNUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8423909.523474999
+    },
+    {
+      "symbol": "RUNEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8378820.528490001
+    },
+    {
+      "symbol": "CCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8366927.575578665
+    },
+    {
+      "symbol": "TAGUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8356630.47596141
+    },
+    {
+      "symbol": "HAEDALUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8279842.309144334
+    },
+    {
+      "symbol": "REZUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8274885.5951624345
+    },
+    {
+      "symbol": "LIGHTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8205303.856373334
+    },
+    {
+      "symbol": "LAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8143622.705665733
+    },
+    {
+      "symbol": "TRBUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 8056917.098099996
+    },
+    {
+      "symbol": "SPXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7963515.068260001
+    },
+    {
+      "symbol": "XANUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7826597.4364921
+    },
+    {
+      "symbol": "CTSIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7807768.728172998
+    },
+    {
+      "symbol": "RVNUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7799020.890781
+    },
+    {
+      "symbol": "BERAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7697156.080268
+    },
+    {
+      "symbol": "币安人生USDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7608430.998428
+    },
+    {
+      "symbol": "KATUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7428723.456528332
+    },
+    {
+      "symbol": "CHZUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7364463.449583666
+    },
+    {
+      "symbol": "STBLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7328731.838002001
+    },
+    {
+      "symbol": "COLLECTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7294657.533091333
+    },
+    {
+      "symbol": "AUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7273853.068401335
+    },
+    {
+      "symbol": "1000FLOKIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7242336.200485336
+    },
+    {
+      "symbol": "SAGAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7114255.9050197
+    },
+    {
+      "symbol": "GRVTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7109249.453486667
+    },
+    {
+      "symbol": "KAITOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7056230.729785667
+    },
+    {
+      "symbol": "KMNOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7053588.107589
+    },
+    {
+      "symbol": "HEMIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 7031693.426302699
+    },
+    {
+      "symbol": "PIXELUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6995514.272006298
+    },
+    {
+      "symbol": "ATHUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6960620.3640955025
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6862689.785465334
+    },
+    {
+      "symbol": "DODOXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6736696.726544067
+    },
+    {
+      "symbol": "ANIMEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6706879.264389066
+    },
+    {
+      "symbol": "2ZUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6705865.239919335
+    },
+    {
+      "symbol": "TREEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6645734.444257667
+    },
+    {
+      "symbol": "SUPERUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6619283.220833999
+    },
+    {
+      "symbol": "FLUIDUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6611814.902136666
+    },
+    {
+      "symbol": "JASMYUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6508264.975941898
+    },
+    {
+      "symbol": "SCRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6464538.5306503335
+    },
+    {
+      "symbol": "IOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6393836.514731001
+    },
+    {
+      "symbol": "VETUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6376418.83775
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6277946.083561599
+    },
+    {
+      "symbol": "BASEDUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6243461.617749333
+    },
+    {
+      "symbol": "REUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6202856.491169999
+    },
+    {
+      "symbol": "EDUUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6194042.555026334
+    },
+    {
+      "symbol": "SYRUPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6128288.868686
+    },
+    {
+      "symbol": "AIOTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6089303.410336999
+    },
+    {
+      "symbol": "CTKUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6057929.29531
+    },
+    {
+      "symbol": "0GUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6033082.2870700015
+    },
+    {
+      "symbol": "LPTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 6020715.539109999
+    },
+    {
+      "symbol": "AKTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5940084.436838331
+    },
+    {
+      "symbol": "GIGGLEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5875227.848713333
+    },
+    {
+      "symbol": "ELSAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5820384.359735001
+    },
+    {
+      "symbol": "VTHOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5798447.546370401
+    },
+    {
+      "symbol": "ALICEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5784610.012122333
+    },
+    {
+      "symbol": "ZILUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5653093.020028368
+    },
+    {
+      "symbol": "1000RATSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5647588.323522334
+    },
+    {
+      "symbol": "OPNUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5428450.064749332
+    },
+    {
+      "symbol": "PEOPLEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5405142.931119899
+    },
+    {
+      "symbol": "NXPCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5363571.527643335
+    },
+    {
+      "symbol": "CTRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5348023.736450401
+    },
+    {
+      "symbol": "AIAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5293839.193823333
+    },
+    {
+      "symbol": "MEWUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5289888.611962616
+    },
+    {
+      "symbol": "BIOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5275310.902176333
+    },
+    {
+      "symbol": "NEIROUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5262126.888170913
+    },
+    {
+      "symbol": "ENSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5212484.388376665
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5211997.642675999
+    },
+    {
+      "symbol": "DATAIPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5139553.930256667
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5138960.286599667
+    },
+    {
+      "symbol": "NOMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5119640.362407034
+    },
+    {
+      "symbol": "REDUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5117187.8071966665
+    },
+    {
+      "symbol": "TAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5092477.183111999
+    },
+    {
+      "symbol": "FFUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5076350.871012
+    },
+    {
+      "symbol": "BABYUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5049309.786182667
+    },
+    {
+      "symbol": "ATUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5022571.831133335
+    },
+    {
+      "symbol": "MANTAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5021052.500411367
+    },
+    {
+      "symbol": "IOTAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5020849.1063951
+    },
+    {
+      "symbol": "FOLKSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 5004695.367416668
+    },
+    {
+      "symbol": "KITEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4941243.646391334
+    },
+    {
+      "symbol": "JSTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4874659.5171386665
+    },
+    {
+      "symbol": "METISUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4855288.483374
+    },
+    {
+      "symbol": "CVXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4835536.39769
+    },
+    {
+      "symbol": "4USDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4827647.224823733
+    },
+    {
+      "symbol": "FLOCKUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4817218.145077665
+    },
+    {
+      "symbol": "CYBERUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4780399.0639516665
+    },
+    {
+      "symbol": "DYDXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4740536.875662332
+    },
+    {
+      "symbol": "EGLDUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4724697.288029999
+    },
+    {
+      "symbol": "KASUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4714328.942641666
+    },
+    {
+      "symbol": "C98USDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4643885.016944333
+    },
+    {
+      "symbol": "RESOLVUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4638405.470955667
+    },
+    {
+      "symbol": "OPENUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4623113.017286668
+    },
+    {
+      "symbol": "IMXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4545011.983776667
+    },
+    {
+      "symbol": "GRTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4524166.9489526665
+    },
+    {
+      "symbol": "ARXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4481324.576176665
+    },
+    {
+      "symbol": "ESPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4386514.126282333
+    },
+    {
+      "symbol": "AXLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4345361.840797333
+    },
+    {
+      "symbol": "CFGUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4341899.720986667
+    },
+    {
+      "symbol": "EDGEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4247998.453629999
+    },
+    {
+      "symbol": "ONGUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4234412.482781333
+    },
+    {
+      "symbol": "THETAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4204142.042880666
+    },
+    {
+      "symbol": "CLOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4192607.3081760006
+    },
+    {
+      "symbol": "AIOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4112453.5485669994
+    },
+    {
+      "symbol": "GUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4110698.323802767
+    },
+    {
+      "symbol": "TUTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4101400.8845783332
+    },
+    {
+      "symbol": "KAVAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4100101.958891367
+    },
+    {
+      "symbol": "ENSOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4091997.1229056674
+    },
+    {
+      "symbol": "ARKMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4073042.4522666666
+    },
+    {
+      "symbol": "NEOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4044622.4565930013
+    },
+    {
+      "symbol": "WETUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4029106.6292679994
+    },
+    {
+      "symbol": "GMTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4016548.9160675327
+    },
+    {
+      "symbol": "MUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4012835.793826667
+    },
+    {
+      "symbol": "ALLOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4012586.547159666
+    },
+    {
+      "symbol": "1000LUNCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 4009721.3844040013
+    },
+    {
+      "symbol": "XPINUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3974745.1225618
+    },
+    {
+      "symbol": "ARPAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3921079.103712067
+    },
+    {
+      "symbol": "SPKUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3904384.6857426665
+    },
+    {
+      "symbol": "MASKUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3887100.6874300004
+    },
+    {
+      "symbol": "IOTXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3842168.2385066324
+    },
+    {
+      "symbol": "AZTECUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3812059.7091086665
+    },
+    {
+      "symbol": "AVNTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3796795.2137256665
+    },
+    {
+      "symbol": "MOODENGUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3785298.5131023335
+    },
+    {
+      "symbol": "COWUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3760773.6274066665
+    },
+    {
+      "symbol": "UMAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3644857.6405399996
+    },
+    {
+      "symbol": "ROBOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3610544.093821266
+    },
+    {
+      "symbol": "IDUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3604121.9898219993
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3598661.8391512665
+    },
+    {
+      "symbol": "EULUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3573909.7310689995
+    },
+    {
+      "symbol": "SAFEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3573723.7775383326
+    },
+    {
+      "symbol": "GENIUSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3552024.203126666
+    },
+    {
+      "symbol": "XTZUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3512322.727174001
+    },
+    {
+      "symbol": "XNYUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3473800.263315667
+    },
+    {
+      "symbol": "OPGUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3455406.01538
+    },
+    {
+      "symbol": "GPSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3455175.8328809
+    },
+    {
+      "symbol": "BBUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3407477.6742186667
+    },
+    {
+      "symbol": "TRIAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3387372.563717834
+    },
+    {
+      "symbol": "SAHARAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3383869.4462616
+    },
+    {
+      "symbol": "AIGENSYNUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3364242.861028667
+    },
+    {
+      "symbol": "CARVUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3345513.874732
+    },
+    {
+      "symbol": "HOMEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3331280.0936631327
+    },
+    {
+      "symbol": "SOLVUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3318781.3097779667
+    },
+    {
+      "symbol": "STABLEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3299067.8743742006
+    },
+    {
+      "symbol": "XAIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3294570.1325550326
+    },
+    {
+      "symbol": "EDENUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3262527.665578666
+    },
+    {
+      "symbol": "CYSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3258199.488243334
+    },
+    {
+      "symbol": "ZBTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3256774.952679
+    },
+    {
+      "symbol": "BREVUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3244334.2331956658
+    },
+    {
+      "symbol": "KGENUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3238842.933253
+    },
+    {
+      "symbol": "PNUTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3238760.627559333
+    },
+    {
+      "symbol": "USDCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3204781.813572267
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3170909.3351333337
+    },
+    {
+      "symbol": "FORMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3112508.0496413326
+    },
+    {
+      "symbol": "FOGOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3103956.221839933
+    },
+    {
+      "symbol": "STARUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3099315.683784334
+    },
+    {
+      "symbol": "ROSEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3053470.1626259657
+    },
+    {
+      "symbol": "FLOWUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3047290.8541613664
+    },
+    {
+      "symbol": "DYMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 3025346.665969333
+    },
+    {
+      "symbol": "PLAYUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2969065.702171333
+    },
+    {
+      "symbol": "MYXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2947689.6557239997
+    },
+    {
+      "symbol": "UBUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2941889.6807930004
+    },
+    {
+      "symbol": "PIEVERSEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2924794.976696667
+    },
+    {
+      "symbol": "YFIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2896169.9619666664
+    },
+    {
+      "symbol": "MANTRAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2876352.1038073334
+    },
+    {
+      "symbol": "CELOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2875886.7818642007
+    },
+    {
+      "symbol": "BIGTIMEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2855757.6516034
+    },
+    {
+      "symbol": "SPORTFUNUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2851200.587155
+    },
+    {
+      "symbol": "YGGUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2850945.801611665
+    },
+    {
+      "symbol": "AVAAIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2846265.1462206994
+    },
+    {
+      "symbol": "DEEPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2844558.17159
+    },
+    {
+      "symbol": "GMXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2843523.717264001
+    },
+    {
+      "symbol": "PHAROSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2818440.1475766674
+    },
+    {
+      "symbol": "ZKPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2817506.521574333
+    },
+    {
+      "symbol": "SNXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2817496.208502333
+    },
+    {
+      "symbol": "ACUUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2789078.9130700007
+    },
+    {
+      "symbol": "HANAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2746107.9882723326
+    },
+    {
+      "symbol": "DIAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2744171.5746733327
+    },
+    {
+      "symbol": "1000XECUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2743144.2739109
+    },
+    {
+      "symbol": "RAVEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2741398.267349999
+    },
+    {
+      "symbol": "MERLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2714481.0368530005
+    },
+    {
+      "symbol": "TAKEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2710861.162243333
+    },
+    {
+      "symbol": "BSBUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2706573.2084339997
+    },
+    {
+      "symbol": "CVCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2699135.0097153336
+    },
+    {
+      "symbol": "BICOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2690995.797914
+    },
+    {
+      "symbol": "ZORAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2678691.260016234
+    },
+    {
+      "symbol": "1INCHUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2667917.7625900004
+    },
+    {
+      "symbol": "LINEAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2660230.406266267
+    },
+    {
+      "symbol": "MOVEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2651991.5003257673
+    },
+    {
+      "symbol": "TSTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2640462.7047594
+    },
+    {
+      "symbol": "PROVEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2606532.3173599993
+    },
+    {
+      "symbol": "MMTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2582137.7756066667
+    },
+    {
+      "symbol": "PIPPINUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2574008.5714220004
+    },
+    {
+      "symbol": "GOATUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2572439.6187770003
+    },
+    {
+      "symbol": "STEEMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2566472.204051333
+    },
+    {
+      "symbol": "RONINUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2556983.1958134663
+    },
+    {
+      "symbol": "HEIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2551430.3316765
+    },
+    {
+      "symbol": "KERNELUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2547037.998002666
+    },
+    {
+      "symbol": "WCTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2536478.473155667
+    },
+    {
+      "symbol": "ZKCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2516607.2032256667
+    },
+    {
+      "symbol": "HUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2502641.9692849996
+    },
+    {
+      "symbol": "ONTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2494737.2778617656
+    },
+    {
+      "symbol": "RAREUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2476682.5610773335
+    },
+    {
+      "symbol": "MEMEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2459487.006204867
+    },
+    {
+      "symbol": "SLXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2456353.432829
+    },
+    {
+      "symbol": "ACTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2430081.240394733
+    },
+    {
+      "symbol": "HYPERUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2425562.093102333
+    },
+    {
+      "symbol": "FIDAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2381027.2581530004
+    },
+    {
+      "symbol": "ZESTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2373482.072894666
+    },
+    {
+      "symbol": "LUNA2USDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2350859.962449999
+    },
+    {
+      "symbol": "YBUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2331680.2854476664
+    },
+    {
+      "symbol": "WOOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2309771.078251333
+    },
+    {
+      "symbol": "ALPINEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2308948.2589633334
+    },
+    {
+      "symbol": "BTCDOMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2275505.092076667
+    },
+    {
+      "symbol": "POLYXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2255535.5651686667
+    },
+    {
+      "symbol": "POWERUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2247915.272302666
+    },
+    {
+      "symbol": "TURBOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2234894.5432971898
+    },
+    {
+      "symbol": "MIRAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2201423.3579956666
+    },
+    {
+      "symbol": "TOWNSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2192262.6718008337
+    },
+    {
+      "symbol": "NAORISUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2150254.2738226666
+    },
+    {
+      "symbol": "FIGHTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2143764.568166
+    },
+    {
+      "symbol": "SXTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2141967.051506833
+    },
+    {
+      "symbol": "AEVOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2134195.0247300663
+    },
+    {
+      "symbol": "CHRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2091794.5996556664
+    },
+    {
+      "symbol": "BROCCOLI714USDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2055936.7901453332
+    },
+    {
+      "symbol": "ACHUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2041438.6754085666
+    },
+    {
+      "symbol": "SKRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2009800.725963667
+    },
+    {
+      "symbol": "COAIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 2009494.2371433328
+    },
+    {
+      "symbol": "MEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1998885.173024067
+    },
+    {
+      "symbol": "FUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1979564.0367018997
+    },
+    {
+      "symbol": "PRLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1971158.4471066664
+    },
+    {
+      "symbol": "我踏马来了USDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1956638.6028636328
+    },
+    {
+      "symbol": "ANKRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1953989.2722385665
+    },
+    {
+      "symbol": "INXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1933993.298215167
+    },
+    {
+      "symbol": "GUNUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1924482.6552445334
+    },
+    {
+      "symbol": "SHELLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1922494.7473466666
+    },
+    {
+      "symbol": "HOTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1893993.3007639402
+    },
+    {
+      "symbol": "BANDUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1890454.1450049996
+    },
+    {
+      "symbol": "KSMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1877743.5497766666
+    },
+    {
+      "symbol": "ZETAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1872531.4368103335
+    },
+    {
+      "symbol": "OUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1863859.9766466669
+    },
+    {
+      "symbol": "FLUXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1852522.2421099998
+    },
+    {
+      "symbol": "DRIFTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1814722.2102206668
+    },
+    {
+      "symbol": "BUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1790233.1648333336
+    },
+    {
+      "symbol": "CELRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1788649.235027067
+    },
+    {
+      "symbol": "POPCATUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1782260.3845716668
+    },
+    {
+      "symbol": "KOMAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1780524.1636833001
+    },
+    {
+      "symbol": "TLMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1774657.703663967
+    },
+    {
+      "symbol": "NOTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1759119.4365267132
+    },
+    {
+      "symbol": "PORTALUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1739645.2445463662
+    },
+    {
+      "symbol": "VANAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1738997.229232066
+    },
+    {
+      "symbol": "MTLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1734278.1877
+    },
+    {
+      "symbol": "SOMIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1731358.1897099996
+    },
+    {
+      "symbol": "TOSHIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1722750.383381357
+    },
+    {
+      "symbol": "RECALLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1721076.4235420001
+    },
+    {
+      "symbol": "CUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1719553.6315990002
+    },
+    {
+      "symbol": "AIXBTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1705195.6517186672
+    },
+    {
+      "symbol": "TNSRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1702517.6261209664
+    },
+    {
+      "symbol": "CGPTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1702456.477094
+    },
+    {
+      "symbol": "TACUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1677446.0287748328
+    },
+    {
+      "symbol": "ILVUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1676365.4494699999
+    },
+    {
+      "symbol": "SWARMSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1641509.5227136337
+    },
+    {
+      "symbol": "BRETTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1638560.4767971667
+    },
+    {
+      "symbol": "哈基米USDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1635425.0180026665
+    },
+    {
+      "symbol": "USUALUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1631934.6225002
+    },
+    {
+      "symbol": "QTUMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1630347.3539360003
+    },
+    {
+      "symbol": "SQDUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1608909.5384959998
+    },
+    {
+      "symbol": "TURTLEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1585365.7878273332
+    },
+    {
+      "symbol": "RIFUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1577981.7481926666
+    },
+    {
+      "symbol": "SLPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1577229.5547049036
+    },
+    {
+      "symbol": "MELANIAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1570499.9908244899
+    },
+    {
+      "symbol": "POWRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1564374.0767186666
+    },
+    {
+      "symbol": "AUCTIONUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1558218.2115903336
+    },
+    {
+      "symbol": "TRUSTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1531291.8710106665
+    },
+    {
+      "symbol": "BELUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1526202.1091226665
+    },
+    {
+      "symbol": "CROSSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1467957.2994996666
+    },
+    {
+      "symbol": "SPELLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1460140.9274158499
+    },
+    {
+      "symbol": "BSVUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1452580.9968
+    },
+    {
+      "symbol": "TWTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1450253.1867066668
+    },
+    {
+      "symbol": "STOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1433250.406625
+    },
+    {
+      "symbol": "GASUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1427880.5604333333
+    },
+    {
+      "symbol": "1000SATSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1425246.8757997064
+    },
+    {
+      "symbol": "LAYERUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1423955.2219215662
+    },
+    {
+      "symbol": "FRAXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1411187.9621833332
+    },
+    {
+      "symbol": "AWEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1407696.918621
+    },
+    {
+      "symbol": "ETHWUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1354530.4254633333
+    },
+    {
+      "symbol": "ZRXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1352359.447758333
+    },
+    {
+      "symbol": "SSVUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1349939.3802273339
+    },
+    {
+      "symbol": "PUNDIXUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1347323.0386813332
+    },
+    {
+      "symbol": "CHILLGUYUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1344211.2058215
+    },
+    {
+      "symbol": "SIGNUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1319860.4051571996
+    },
+    {
+      "symbol": "TRADOORUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1313842.33898
+    },
+    {
+      "symbol": "NEWTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1305360.4324819997
+    },
+    {
+      "symbol": "CATIUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1299503.2696586668
+    },
+    {
+      "symbol": "DOGSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1298059.3881378537
+    },
+    {
+      "symbol": "THEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1269215.3920319334
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1266359.5467800002
+    },
+    {
+      "symbol": "XVGUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1259820.0330720334
+    },
+    {
+      "symbol": "CLANKERUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1252284.4658366665
+    },
+    {
+      "symbol": "MAVUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1249685.2974681335
+    },
+    {
+      "symbol": "BARDUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1235551.1766666668
+    },
+    {
+      "symbol": "HOLOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1234708.6499773334
+    },
+    {
+      "symbol": "USTCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1233652.3539564002
+    },
+    {
+      "symbol": "SPACEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1231047.0209832664
+    },
+    {
+      "symbol": "HMSTRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1223242.966730273
+    },
+    {
+      "symbol": "KNCUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1198081.6712766667
+    },
+    {
+      "symbol": "SUNUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1173657.9466529666
+    },
+    {
+      "symbol": "FHEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1167655.6713176665
+    },
+    {
+      "symbol": "CETUSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1143332.4556006668
+    },
+    {
+      "symbol": "B2USDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1139011.7087633335
+    },
+    {
+      "symbol": "ALLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1136564.80679
+    },
+    {
+      "symbol": "ASTRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1098994.2373111667
+    },
+    {
+      "symbol": "JELLYJELLYUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1091145.8457853335
+    },
+    {
+      "symbol": "HIVEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1085422.226284
+    },
+    {
+      "symbol": "COOKIEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1080036.6143886668
+    },
+    {
+      "symbol": "GLMUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1062887.2964599996
+    },
+    {
+      "symbol": "BANUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1044970.2959383334
+    },
+    {
+      "symbol": "LISTAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1044303.9490503332
+    },
+    {
+      "symbol": "GUAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1043224.8967336664
+    },
+    {
+      "symbol": "1MBABYDOGEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1042923.8312563732
+    },
+    {
+      "symbol": "BANANAS31USDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 1026711.8508122
+    },
+    {
+      "symbol": "MOCAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 994517.8373398667
+    },
+    {
+      "symbol": "TAIKOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 971896.2687270001
+    },
+    {
+      "symbol": "ASRUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 970134.9538993334
+    },
+    {
+      "symbol": "BASUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 961009.2740397998
+    },
+    {
+      "symbol": "SFPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 957096.1788199999
+    },
+    {
+      "symbol": "WAXPUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 956995.9038543664
+    },
+    {
+      "symbol": "ALCHUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 882946.2323720002
+    },
+    {
+      "symbol": "SANTOSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 880449.8452096668
+    },
+    {
+      "symbol": "SONICUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 867279.1514415666
+    },
+    {
+      "symbol": "OGUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 856646.5650400001
+    },
+    {
+      "symbol": "LQTYUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 852892.2494013334
+    },
+    {
+      "symbol": "SAPIENUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 799671.9123066666
+    },
+    {
+      "symbol": "RPLUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 767880.6532666667
+    },
+    {
+      "symbol": "MAVIAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 764666.43812
+    },
+    {
+      "symbol": "1000000MOGUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 741412.3639706667
+    },
+    {
+      "symbol": "JOEUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 734819.5207940001
+    },
+    {
+      "symbol": "BROCCOLIF3BUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 728008.1648576665
+    },
+    {
+      "symbol": "BANANAUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 719862.5451833333
+    },
+    {
+      "symbol": "1000CHEEMSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 696164.0197451368
+    },
+    {
+      "symbol": "XVSUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 619651.0725033333
+    },
+    {
+      "symbol": "DOLOUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 593911.8535823333
+    },
+    {
+      "symbol": "BNTUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 578437.6710166667
+    },
+    {
+      "symbol": "1000CATUSDT",
+      "full_days": 30,
+      "avg_daily_quote_usdt": 561159.5552308668
+    }
   ]
 }

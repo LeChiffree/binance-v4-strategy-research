@@ -13,9 +13,9 @@ import pandas as pd
 
 import download_d_futures_1m as archive
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output/active_525_five_stage"
-D = Path("D:/1mDataBinance")
+D = Path(os.environ.get("BINANCE_DATA_ROOT", ROOT / "data/binance"))
 
 
 def jobs_for_signals(signals: pd.DataFrame, cutoff: int) -> list[tuple[str, str, str]]:

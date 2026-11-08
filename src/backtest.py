@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 import requests
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT = ROOT / "output"
 API = "https://api.binance.com/api/v3"

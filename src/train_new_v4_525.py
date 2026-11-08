@@ -9,7 +9,7 @@ import lightgbm as lgb
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "output/active_525_five_stage"
 OUT = ROOT / "output/v4_new_525_2021_2024"
 OUT.mkdir(parents=True, exist_ok=True)

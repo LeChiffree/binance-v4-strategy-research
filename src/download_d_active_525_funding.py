@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import concurrent.futures
 import json
+import os
 import threading
 import time
 from pathlib import Path
@@ -12,8 +13,8 @@ import requests
 
 import download_d_futures_1m as archive
 
-ROOT = Path(__file__).resolve().parent
-D = Path("D:/1mDataBinance/active_525/funding")
+ROOT = Path(__file__).resolve().parents[1]
+D = Path(os.environ.get("BINANCE_DATA_ROOT", ROOT / "data/binance")) / "active_525/funding"
 CUTOFF = json.loads((ROOT / "data/active_525/cutoff.json").read_text())["closed_bar_cutoff_ms"]
 TLS = threading.local()
 LOCK = threading.Lock()

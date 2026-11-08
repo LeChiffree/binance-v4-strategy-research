@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 import requests
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data/active_525/futures_bars"
 OUT.mkdir(parents=True, exist_ok=True)
 SOURCE = json.loads((ROOT / "output/binance_futures_exchange_info_2026-10-18.json").read_text(encoding="utf-8"))

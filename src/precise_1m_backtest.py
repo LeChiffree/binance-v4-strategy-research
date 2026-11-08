@@ -21,7 +21,7 @@ import requests
 
 import v4_feature_build as feature_build
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output" / "precise_1m"
 MINUTE = 60_000
 FIVE = 300_000

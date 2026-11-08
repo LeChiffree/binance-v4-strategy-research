@@ -9,7 +9,7 @@ import pandas as pd
 import backtest_active_525_five_stage as bt
 import download_d_active_525_funding as funding_store
 
-OUT = Path(__file__).resolve().parent / "output/v4_new_525_2021_2024"
+OUT = Path(__file__).resolve().parents[1] / "output/v4_new_525_2021_2024"
 PARTS = OUT / "labels_2x_parts"
 PARTS.mkdir(parents=True, exist_ok=True)
 TRAIN_START = pd.Timestamp("2021-01-01", tz="UTC").value // 10**6

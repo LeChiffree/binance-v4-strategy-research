@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import concurrent.futures
 import json
+import os
 import time
 from pathlib import Path
 
@@ -15,8 +16,8 @@ import pandas as pd
 
 import download_d_futures_1m as archive
 
-ROOT = Path(__file__).resolve().parent
-D = Path("D:/1mDataBinance")
+ROOT = Path(__file__).resolve().parents[1]
+D = Path(os.environ.get("BINANCE_DATA_ROOT", ROOT / "data/binance"))
 OUT = D / "active_525/futures_bars"
 AUDIT_PATH = ROOT / "output/active_525_five_stage/d_derived_bars_audit.csv"
 SOURCE_AUDIT = ROOT / "output/active_525_five_stage/d_1m_download_audit.csv"

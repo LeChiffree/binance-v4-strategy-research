@@ -14,7 +14,7 @@ import backtest
 import leverage_scenarios as lev
 import download_d_active_525_funding as active_funding
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output/active_525_five_stage"
 PARTS = OUT / "trade_parts"
 PARTS.mkdir(parents=True, exist_ok=True)

@@ -13,7 +13,17 @@ pip install -r requirements.txt
 
 ## 2. Binance veri evreni
 
-`src/download_active_525_futures_bars.py`, Binance USD-M `exchangeInfo` üzerinden aktif USDT perpetual listesini alır ve her kontratı yalnızca listeli olduğu geçmişte kullanır. Ham veriyi repo dışında bir veri dizininde saklayın.
+Tam 1m arşiv için isteğe bağlı veri kökü tanımlayın. Tanımlanmazsa repo içindeki `data/binance/` kullanılır:
+
+```bash
+# macOS/Linux
+export BINANCE_DATA_ROOT=/mnt/data/binance
+
+# PowerShell
+$env:BINANCE_DATA_ROOT='D:\1mDataBinance'
+```
+
+`output/binance_futures_exchange_info_2026-10-18.json`, yayımlanan sonuçların frozen 525-kontrat evrenidir. Her kontrat yalnızca listeli olduğu geçmişte kullanılır.
 
 ```bash
 python src/download_active_525_futures_bars.py
@@ -47,6 +57,8 @@ Beklenen model girdisi 59 sütundur. Eksik point-in-time BTC, breadth, funding v
 python src/train_v4_window_sweep_525.py
 ```
 
+Gerekli frozen `v4_features.parquet` ve eğitim targetları repo içindedir; bu adım ham mum arşivi olmadan çalışır.
+
 2020–2024 penceresinin beklenen özeti `metadata/training_windows.json` içindedir: 11.286 satır, 234 coin, 59 feature. Üretilen modelin feature sırası `models/v4_2020_2024.joblib` ile aynı olmalıdır.
 
 ## 7. Beş aşamayı ve kaldıraçları test et
@@ -71,6 +83,12 @@ python -m uvicorn app:app --host 0.0.0.0 --port 8766
 Son seçim `paper/engine.py` içindeki `SELECTED_VARIANTS` sabitidir. Mevcut sürüm yalnızca 4h `65/close_2r`, `65/retest_2r`, `9/close_2r` ve kümülatif `123` filtresini kullanır.
 
 ## Doğrulama kontrol listesi
+
+Otomatik offline kontrol:
+
+```bash
+python src/verify_repository.py
+```
 
 - Eğitim/test yılları çakışmıyor.
 - Sinyal featureları yalnızca kapanmış mumları görüyor.

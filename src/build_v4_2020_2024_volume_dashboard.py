@@ -2,19 +2,20 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output/v4_2020_2024_leverage_volume"
 OUT.mkdir(parents=True, exist_ok=True)
 START = pd.Timestamp("2025-01-01", tz="UTC").value // 1_000_000
 END = pd.Timestamp("2026-10-18", tz="UTC").value // 1_000_000
 DAY_MS = 86_400_000
 HOUR_MS = 3_600_000
-BAR_DIR = Path("D:/1mDataBinance/active_525/futures_bars/1h")
+BAR_DIR = Path(os.environ.get("BINANCE_DATA_ROOT", ROOT / "data/binance")) / "active_525/futures_bars/1h"
 
 
 def volume_rank() -> pd.DataFrame:

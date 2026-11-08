@@ -9,6 +9,7 @@ Bu repo, Binance USD-M perpetual piyasasında geliştirilen dört formasyon aile
 - [12 yöntem ve sinyal/çıkış mantığı](docs/METHODS_TR.md)
 - [V4 modeli, 59 feature, target ve eğitim ayrıntıları](docs/ML_V4.md)
 - [Baştan üretim rehberi](REPRODUCE.md)
+- [Yeniden üretilebilirlik denetimi ve sınırlar](docs/REPRODUCIBILITY_AUDIT.md)
 - [Dashboard merkezi](docs/index.html)
 
 ## Araştırmanın sabit tanımı
@@ -46,6 +47,8 @@ paper/                Salt paper-trade servisinin kaynak kodu
 ```
 
 Ham 1m/1h/4h mum arşivi repo boyutunu aşacağı için eklenmemiştir. `REPRODUCE.md`, Binance’tan aynı veri setinin nasıl oluşturulacağını açıklar.
+
+Ana eğitim feature/target snapshotları ve 1m backtest sonuç defteri ise repoya eklenmiştir. Böylece ham arşiv olmadan model eğitimi ve sonuç mutabakatı yapılabilir.
 
 ## Seçilen paper sürümü
 

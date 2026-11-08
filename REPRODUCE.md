@@ -8,8 +8,10 @@ Python 3.11 önerilir.
 python -m venv .venv
 # Windows: .venv\Scripts\activate
 # macOS/Linux: source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-lock.txt
 ```
+
+`requirements-lock.txt`, doğrulanan ortamın tam sürümleridir ve birebir üretim için önerilir. `requirements.txt` ise geliştirme amaçlı uyumlu sürüm aralıklarını tutar.
 
 ## 2. Binance veri evreni
 

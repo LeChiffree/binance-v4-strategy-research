@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "name": "V4_SHORT_PAPER_CORE_10X",
+  "status": "pre_registered_not_deployed",
+  "created_utc": "2026-10-20",
+  "start_utc": "2026-11-01T00:00:00Z",
+  "mode": "paper_only_no_order_api",
+  "objective": "2026-11-01 sonrasinda, dondurulmus V4 short formasyon secicisinin maliyet sonrasi ileri donem beklentisini dogrulamak; parametre optimizasyonu yapmamak.",
+  "model": {
+    "path": "output/v4_window_sweep_525/models/v4_2020-2024.joblib",
+    "sha256": "df6f3915d463f87b8f620652e7cac70b9c45138da0a19995fd730a6f295d83f6",
+    "train_start_year": 2020,
+    "train_end_year": 2024,
+    "features": 59,
+    "categorical": ["variant", "pattern_id", "timeframe"],
+    "score_threshold": 0.26,
+    "score_units": "USDT, 2x ve 10 USDT teminat etiketiyle egitilmis tahmin; 10x icin kalibre kar tahmini degil, sadece secim sirasi"
+  },
+  "universe": {
+    "exchange": "Binance USD-M USDT perpetual",
+    "scan_symbols": 525,
+    "selection": "Onceki 30 tam UTC gunun ortalama quote volume'u; en az 20 tam gun; ilk 250; ay basinda yalnizca ay basindan onceki veriyle yeniden denge",
+    "rebalance": "monthly",
+    "survivorship_caveat": "Gecmis test 2026-10-18'de aktif olan 525 sembolle sinirlidir; delist edilenler yoktur."
+  },
+  "signal": {
+    "side": "short",
+    "timeframes": ["1h", "4h"],
+    "patterns": {
+      "9": {"name": "Simetrik ucgen", "timeframe": "4h", "variants": ["close_2r", "close_2r_h100", "close_2r_h25"]},
+      "16": {"name": "Dikdortgen", "timeframe": "1h", "variants": ["close_2r", "close_2r_h25"]},
+      "21": {"name": "Megafon", "timeframe": "1h", "variants": ["close_2r", "close_2r_trend", "close_2r_volume", "retest_2r"]},
+      "65": {"name": "Alternate AB=CD", "timeframe": "4h", "variants": ["close_2r", "close_2r_h100", "retest_2r"]}
+    },
+    "event_key": "blake2s(symbol|pattern_id|entry_time|known_time|trigger|raw_stop|pivot_times, 12 byte)",
+    "formation_key": "symbol|pattern_id|trigger|raw_stop|pivot_times",
+    "variant_priority": ["close_2r", "retest_2r", "close_2r_trend", "close_2r_volume", "close_2r_h100", "close_2r_h25"],
+    "entry": "Onaylanan formasyonun bir sonraki 1h/4h mumunun acilisi; sinyal kapanisindan sonra en fazla 90 saniye gecikme",
+    "stop": "Formasyonun ham stopu + 0.25 * ATR; ayrica likidasyon proxy'sinden %0.5 fiyat tamponu kadar yukarida olan daha yakin seviye",
+    "target": "Giris - 2 * (giris - stop)",
+    "timeout": "Formasyonun orijinal horizon'u (25/50/100 bar)"
+  },
+  "gates": {
+    "stage_1": "4 formasyon ailesi / 12 short varyanti; ayni event_id altinda tek islem adayi",
+    "stage_2": {
+      "btc_return_200_max": 0.073452727496624,
+      "avg_trade_usdt_min": 147.6241108493176
+    },
+    "stage_3": "new_2020_2024 model skoru >= 0.26",
+    "stage_4_not_used": "coin_return_200 < 0 (sadece shadow quality_10x icin)",
+    "stage_5_not_used": "son mum body < 0 ve close_location <= 0.40 (sadece shadow quality_10x icin)"
+  },
+  "sizing": {
+    "starting_equity_usdt": 1000,
+    "leverage": 10,
+    "max_margin_per_trade_usdt": 10,
+    "notional_per_trade_usdt": 100,
+    "max_simultaneous_positions": 10,
+    "max_positions_per_event": 1,
+    "max_positions_per_symbol": 1,
+    "max_positions_per_formation": 1,
+    "event_dedup": true,
+    "formation_once": true,
+    "pyramiding": false,
+    "sizing_note": "10 USDT teminat = baslangic kasasinin %1'i; 10 eszamanli islemde azami teminat 100 USDT, azami tek-islem zarari 10 USDT."
+  },
+  "dedup": {
+    "event_level": true,
+    "event_key": "blake2s(symbol|pattern_id|entry_time|known_time|trigger|raw_stop|pivot_times, 12 byte)",
+    "formation_level_once": true,
+    "formation_key": "symbol|pattern_id|trigger|raw_stop|pivot_times",
+    "variant_priority": ["close_2r", "retest_2r", "close_2r_trend", "close_2r_volume", "close_2r_h100", "close_2r_h25"],
+    "symbol_level": "one_open_position",
+    "log_suppressed": true,
+    "suppressed_reasons": ["duplicate_event", "symbol_open", "formation_already_traded"],
+    "score_not_used_for_variant_choice": "Skor event icinde aynidir (spread 0); varyant secimi icin kullanilmaz.",
+    "shadow_suppressed_pnl": true
+  },
+  "costs": {
+    "fee_rate_per_side": 0.001,
+    "slippage_rate_per_side": 0.0002,
+    "funding": "gercek Binance USD-M funding oranlari; pozisyon buyuklugu giris nominalinde sabit",
+    "intrabar_priority": "ayni 1m mumda once stop, sonra hedef",
+    "liquidation_proxy": "MMR 0.005; 1m mark high; gercek likidasyon kademeleri ve mum ici olay sirasi yaklasiktir"
+  },
+  "execution": {
+    "data_source": "USD-M futures klines ve mark price; spot kline kullanilmaz",
+    "entry_max_lag_ms": 90000,
+    "stale_data_max_ms": 480000,
+    "min_context_coins": 50,
+    "skip_if_spread_bps_above": 50,
+    "skip_if_expected_slippage_bps_above": 10,
+    "skip_if_feature_nan": true,
+    "skip_if_model_hash_mismatch": true,
+    "skip_if_funding_history_missing": true
+  },
+  "guardrails": {
+    "mark_to_market_drawdown_review_usdt": 125,
+    "mark_to_market_drawdown_pause_new_entries_usdt": 200,
+    "mark_to_market_drawdown_hard_stop_usdt": 250,
+    "single_month_loss_review_usdt": 75,
+    "three_consecutive_negative_months_pause": true,
+    "rolling_6m_net_below_usdt": -100,
+    "pause_on_data_gap_or_stale_feed": true,
+    "resume": "Sadece manuel inceleme ve yazili karar ile; otomatik devam yok",
+    "guardrails_not_in_backtest": true
+  },
+  "evaluation": {
+    "primary_metric": "Islem basina maliyet sonrasi net USDT; ay bloklu bootstrap %95 alt sinir > 0",
+    "secondary_metrics": [
+      "profit factor",
+      "kazanma orani",
+      "mark-to-market maksimum dusus",
+      "aylik pozitif oran",
+      "ilk 3 coin disi net",
+      "en iyi ay disi net",
+      "likidasyon orani",
+      "cozulen islem orani",
+      "sinyal hunisi (stage 1 -> 2 -> 3)",
+      "event basina sinyal orani (beklenen ~1.8)",
+      "duplicate_event / symbol_open orani",
+      "fee + slippage + funding drag"
+    ],
+    "minimum_sample": "12 ay veya 150 cozulen benzersiz formasyon (hangisi sonra tamamlanirsa)",
+    "success": {
+      "mean_net_per_trade_ci95_lower_gt": 0,
+      "profit_factor_min": 1.5,
+      "max_mtm_drawdown_usdt_max": 250,
+      "top3_coin_share_of_net_max": 0.5,
+      "resolved_ratio_min": 0.95
+    },
+    "failure": {
+      "profit_factor_max": 1.1,
+      "or_ci95_upper_lt": 0,
+      "or_max_mtm_drawdown_usdt_gt": 300
+    },
+    "no_parameter_changes_during_test": true,
+    "any_change_resets_clock": true,
+    "power_caveat": "2026 hizinda (~5.4 islem/ay) 12 ay ~65 islem eder; tarihsel islem-basi Sharpe ~0.2 ile bu, %35 civari gucte kalir. Bu nedenle 12 aylik sonuc 'kanit' degil 'destekleyici' sayilmalidir; 18-24 ay veya Bayesian guncelleme planlanmalidir."
+  },
+  "shadows": [
+    {
+      "name": "aggressive_15x",
+      "leverage": 15,
+      "gates": [1, 2, 3],
+      "purpose": "Kaldirac etkisi; ayni sinyaller, 150 USDT nominal"
+    },
+    {
+      "name": "quality_10x",
+      "leverage": 10,
+      "gates": [1, 2, 3, 4, 5],
+      "purpose": "Iki ek kalite kapisinin ileri donemde islem basi avantaji getirip getirmedigi"
+    },
+    {
+      "name": "fourh_10x",
+      "leverage": 10,
+      "gates": [1, 2, 3],
+      "formations": "sadece 4h (9 ve 65)",
+      "purpose": "1h formasyonlarinin gurultu mu, cesitlilik mi oldugu"
+    },
+    {
+      "name": "abcd_10x",
+      "leverage": 10,
+      "gates": [1, 2, 3],
+      "formations": "sadece 65 / 4h",
+      "purpose": "Tek formasyon konsantrasyonunun risk-getiri profili"
+    }
+  ],
+  "primary_result_reference": {
+    "period": "2025-01-01..2026-10-17",
+    "resolved_signals": 576,
+    "unique_events": 320,
+    "unique_formations": 246,
+    "accepted_formations": 219,
+    "signals_per_event": 1.8,
+    "signals_per_formation": 2.34,
+    "formations_with_two_events": 74,
+    "formation_once_rejected_signals": 289,
+    "duplicate_variant_rejections": 225,
+    "different_event_same_symbol_rejections": 132,
+    "trades": 219,
+    "net_usdt": 753.4,
+    "avg_usdt": 3.44,
+    "win_rate": 0.543,
+    "profit_factor": 2.29,
+    "closed_drawdown_usdt": 54.3,
+    "mark_mtm_drawdown_usdt": 124.1,
+    "final_equity_usdt": 1753.4,
+    "liquidation_rate": 0.027,
+    "coins": 94,
+    "net_2025_usdt": 581.2,
+    "net_2026_usdt": 172.2,
+    "worst_month_usdt": -23.4,
+    "stress_net_usdt": 726.5,
+    "bootstrap_p05_usdt": 398.3
+  },
+  "overlap_reference": {
+    "stage": "10x / stage 3 / prior top 250 / resolved",
+    "resolved_signals": 576,
+    "unique_events": 320,
+    "unique_formations": 246,
+    "signals_per_event": 1.8,
+    "signals_per_formation": 2.34,
+    "formations_with_two_events": 74,
+    "formation_once_rejected_signals": 289,
+    "event_size_counts": {"1": 123, "2": 138, "3": 59},
+    "scans": 265,
+    "scans_with_duplicate_event": 169,
+    "scans_with_3plus_same_event": 48,
+    "max_signals_in_scan": 9,
+    "max_symbols_in_scan": 5,
+    "max_variants_per_event": 3,
+    "same_entry_stop_target_score_within_event": true,
+    "live_like_5x_200": {
+      "positions": 297,
+      "unique_events": 180,
+      "duplicate_positions": 117,
+      "max_positions_one_event": 3,
+      "max_margin_one_event_usdt": 600,
+      "opening_scans": 167,
+      "scans_with_duplicate_opened": 96,
+      "scans_with_3plus_opened": 19,
+      "net_usdt": 970.2,
+      "closed_drawdown_usdt": 107.9
+    },
+    "live_like_10x_10": {
+      "positions": 439,
+      "unique_events": 254,
+      "duplicate_positions": 185,
+      "max_positions_one_event": 3,
+      "max_margin_one_event_usdt": 30,
+      "opening_scans": 222,
+      "scans_with_duplicate_opened": 137,
+      "scans_with_3plus_opened": 32,
+      "net_usdt": 1539.8,
+      "closed_drawdown_usdt": 122.5
+    },
+    "cap2_event_base": {
+      "trades": 293,
+      "net_usdt": 1082.6,
+      "closed_drawdown_usdt": 61.9
+    },
+    "note": "Canli servis event/sembol/formation dedup yapmadigi icin live_like satirlari gercek strateji sonucu degil, duplicate exposure gostergesidir."
+  },
+  "caveats": [
+    "2025-2026 sonuclari secim icin kullanildi; bagimsiz ileri test degildir.",
+    "Evren bugun aktif 525 kontrattan olusur; delist edilen coinler yoktur.",
+    "1m icinde olay sirasi ve gercek likidasyon kademeleri bilinmez; likidasyon yaklasiktir.",
+    "Paper fill ile gercek fill arasinda spread, latency ve partial fill farki olabilir.",
+    "Skor 2x/$10 etiketiyle egitildi; 10x/$10 nominalde para birimi olcegi degisir, secim esigi ayni kalir.",
+    "12 varyant bagimsiz strateji degildir; ayni eventin farkli cikis/entry kurallaridir. Etkin orneklem 576 sinyal degil 246 benzersiz formasyondur.",
+    "Canli paper servisi event_id, sembol ve formation bazli dedup uygulamalidir; aksi halde ayni islem 2-3 kez acilir ve sonuclar sisirilir."
+  ]
+}

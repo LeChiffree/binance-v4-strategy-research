@@ -1,0 +1,30 @@
+{
+  "status": "unrestricted_analysis_not_deployed_recommendation_not_reranked",
+  "name": "V4_2020_2024_Paper_123_Vol250_15x",
+  "model": "output/v4_window_sweep_525/models/v4_2020-2024.joblib",
+  "score_threshold": 0.26,
+  "stages": [
+    1,
+    2,
+    3
+  ],
+  "btc_return_200_max": 0.073452727496624,
+  "avg_trade_usdt_min": 147.6241108493176,
+  "leverage": 15,
+  "starting_equity_usdt": null,
+  "max_margin_per_trade_usdt": 10,
+  "one_position_per_symbol": false,
+  "max_simultaneous_positions": null,
+  "universe": "Prior 30 full UTC days average quote volume; minimum 20 full days; top 250; rebalance monthly using data strictly before month start",
+  "scope_caveat": "Backtest only covers 525 symbols active in the 2026-10-18 snapshot, not delisted symbols.",
+  "paper_guardrails": {
+    "pause_for_missing_or_stale_data": true,
+    "log_actual_funding_mark_price_and_fill": true
+  },
+  "guardrails_are_proposed_not_included_in_reported_returns": true,
+  "variant_priority": "All eligible signals admitted independently",
+  "stop": "Original formation stop +0.25 ATR; use lower of that and initial liquidation proxy minus 0.5% entry-price buffer. Actual exchange liquidation must be monitored; no guarantee against liquidation.",
+  "tp": "Original entry minus twice original pre-adjustment risk; existing timeout/horizon retained",
+  "alternate": "10x with otherwise identical rules for lower drawdown",
+  "data_end_utc": "2026-10-17T23:59:00Z"
+}

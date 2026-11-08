@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c111b">
+  <title>Yeni V4 2020–2024 · 10x Paper Terminal</title>
+  <link rel="stylesheet" href="/app.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+<div class="shell">
+  <aside class="rail">
+    <div class="brand"><span class="brand-mark">◈</span><span><strong>VECTOR</strong><small>paper terminal</small></span></div>
+    <nav aria-label="Bölümler">
+      <a class="nav-link active" href="#overview"><span>▦</span> Genel bakış</a>
+      <a class="nav-link" href="#positions"><span>◷</span> Aktif işlemler <em id="navOpen">0</em></a>
+      <a class="nav-link" href="#filters"><span>◇</span> Filtre sağlığı</a>
+      <a class="nav-link" href="#history"><span>▤</span> İşlem geçmişi</a>
+      <a class="nav-link" href="#events"><span>⌁</span> Sistem akışı</a>
+    </nav>
+    <div class="rail-bottom">
+      <div class="mini-label">ÇALIŞMA MODU</div>
+      <div class="paper-badge"><span class="dot blue"></span> PAPER ONLY</div>
+      <p>Gerçek emir gönderilmez.<br>Binance piyasa verisi izlenir.</p>
+      <div class="rail-rule"></div>
+      <div class="rail-metric"><span>İzlenen coin</span><b id="universeCount">—</b></div>
+      <div class="rail-metric"><span>Kaldıraç</span><b>5×</b></div>
+      <div class="rail-metric"><span>Teminat / işlem</span><b>10 USDT</b></div>
+    </div>
+  </aside>
+  <main id="overview">
+    <header class="topbar">
+      <div class="top-title"><div class="eyebrow">CANLI SİMÜLASYON <span class="sep">/</span> 2020–2024 V4 · AŞAMA 123 · HACİMDE İLK 250</div><h1>Paper işlem merkezi</h1><p>1.000 USDT başlangıç kasası · 10× short · işlem başına en çok 10 USDT teminat</p></div>
+      <div class="top-actions"><div class="clock" id="clock">—</div><div class="live-pill" id="systemPill"><span class="dot"></span><span>Bağlanıyor</span></div></div>
+    </header>
+
+    <section class="summary-grid" aria-label="Kasa özeti">
+      <div class="hero-card"><div class="card-overline">TOPLAM KASA DEĞERİ <span>GERÇEKLEŞMİŞ + AÇIK P/L</span></div><div class="hero-value" id="equity">—</div><div class="hero-foot"><span id="equityDelta">—</span><span>1.000,00 USDT başlangıca göre</span></div><div class="hero-glow"></div></div>
+      <div class="metric-card"><div class="metric-icon mint">↗</div><div class="metric-label">Net P/L</div><div class="metric-value" id="netPnl">—</div><div class="metric-sub">Gerçekleşmiş + açık pozisyon</div></div>
+      <div class="metric-card"><div class="metric-icon violet">◉</div><div class="metric-label">En düşük görülen kasa</div><div class="metric-value" id="minEquity">—</div><div class="metric-sub">Başlangıçtan beri gözlenen dip</div></div>
+      <div class="metric-card"><div class="metric-icon amber">⌄</div><div class="metric-label">Maksimum çekilme</div><div class="metric-value" id="maxDrawdown">—</div><div class="metric-sub">Görülen zirveden düşüş</div></div>
+    </section>
+
+    <section class="panel-grid">
+      <div class="panel chart-panel"><div class="panel-header"><div><div class="panel-kicker">PERFORMANS</div><h2>Kasa eğrisi</h2></div><div class="chart-meta"><span class="dot mint"></span> Güncel değer · USDT</div></div><div class="chart-wrap" id="equityChart"><div class="empty">İlk veri noktaları bekleniyor</div></div><div class="chart-axis"><span id="chartStart">—</span><span id="chartEnd">—</span></div></div>
+      <div class="panel allocation"><div class="panel-header"><div><div class="panel-kicker">KASA DAĞILIMI</div><h2>Aktif kullanım</h2></div><span class="muted">5 pozisyona kadar</span></div><div class="allocation-ring"><div class="ring" id="ring"><div><strong id="ringPct">0%</strong><small>kullanım</small></div></div></div><div class="allocation-rows"><div><span><i class="legend mint"></i> Kullanılabilir kasa</span><strong id="availableCash">—</strong></div><div><span><i class="legend violet"></i> Ayrılan teminat</span><strong id="reservedMargin">—</strong></div><div><span><i class="legend amber"></i> Açık P/L</span><strong id="unrealizedPnl">—</strong></div></div></div>
+    </section>
+
+    <section class="panel positions-panel" id="positions"><div class="panel-header"><div><div class="panel-kicker">CANLI POZİSYONLAR</div><h2>Aktif işlemler <span class="count" id="openCount">0</span></h2></div><span class="muted">Her pozisyon 10 USDT teminat / 100 USDT nominal · en fazla 10 pozisyon</span></div><div class="table-scroll"><table><thead><tr><th>COIN / YÖN</th><th>STRATEJİ</th><th>GİRİŞ</th><th>ANLIK</th><th>STOP</th><th>HEDEF</th><th>AÇILIŞ</th><th>SKOR</th><th>TAHMİNİ NET P/L</th></tr></thead><tbody id="openBody"><tr><td colspan="9" class="table-empty">Henüz açık işlem yok. Yeni sinyaller bekleniyor.</td></tr></tbody></table></div></section>
+
+    <section class="panel health-panel" id="filters"><div class="panel-header"><div><div class="panel-kicker">SİSTEM SAĞLIĞI</div><h2>Filtre ve veri kontrolü</h2></div><div class="updated" id="lastUpdate">Son kontrol: —</div></div><div class="health-grid" id="healthGrid"></div><div class="health-note">Yeşil ışık, kuralın ve veri hattının çalıştığını gösterir. BTC / likidite koşulunun o anda geçilip geçilmediği kart ayrıntısında yazılıdır. Kırmızı durumda yeni girişler bloke edilir.</div></section>
+
+    <section class="bottom-grid"><div class="panel" id="history"><div class="panel-header"><div><div class="panel-kicker">İŞLEM KAYDI</div><h2>Kapanan işlemler</h2></div><span class="muted" id="closedCount">0 tamamlandı</span></div><div class="table-scroll compact"><table><thead><tr><th>COIN</th><th>STRATEJİ</th><th>ÇIKIŞ</th><th>NEDEN</th><th>NET P/L</th></tr></thead><tbody id="closedBody"><tr><td colspan="5" class="table-empty">Kapanan işlem yok.</td></tr></tbody></table></div></div><div class="panel" id="events"><div class="panel-header"><div><div class="panel-kicker">CANLI AKIŞ</div><h2>Sistem olayları</h2></div><span class="muted">Son 60 kayıt</span></div><div class="event-list" id="eventList"><div class="empty">Olaylar bekleniyor</div></div></div></section>
+    <footer>VECTOR Paper Terminal · Araştırma simülasyonu · Saatler Türkiye saati (UTC+3) · Veriler 15 saniyede bir yenilenir.</footer>
+  </main>
+</div>
+</body>
+</html>

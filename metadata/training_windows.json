@@ -1,0 +1,171 @@
+{
+  "universe": "525 currently active USDT-M perpetuals, historical signals only when listed",
+  "training_label": "2x Futures 1m replay net PnL, at most 10 USDT margin, fees/slippage/funding",
+  "year_2019": "No 2019 source bars/signals in the active-525 local store; 2019-start windows are not fitted",
+  "threshold_usdt": 0.26,
+  "parameters": {
+    "n_estimators": 160,
+    "learning_rate": 0.035,
+    "num_leaves": 7,
+    "max_depth": 4,
+    "min_child_samples": 120,
+    "reg_lambda": 15,
+    "colsample_bytree": 0.8,
+    "random_state": 20261011,
+    "n_jobs": 2,
+    "verbosity": -1
+  },
+  "feature_count": 59,
+  "training_windows": [
+    {
+      "model": "2020-2020",
+      "train_start": 2020,
+      "train_end": 2020,
+      "train_rows": 288,
+      "train_coins": 41,
+      "train_2020_rows": 288,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2020-2021",
+      "train_start": 2020,
+      "train_end": 2021,
+      "train_rows": 1320,
+      "train_coins": 79,
+      "train_2020_rows": 288,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2020-2022",
+      "train_start": 2020,
+      "train_end": 2022,
+      "train_rows": 3449,
+      "train_coins": 97,
+      "train_2020_rows": 288,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2020-2023",
+      "train_start": 2020,
+      "train_end": 2023,
+      "train_rows": 6385,
+      "train_coins": 149,
+      "train_2020_rows": 288,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2020-2024",
+      "train_start": 2020,
+      "train_end": 2024,
+      "train_rows": 11286,
+      "train_coins": 234,
+      "train_2020_rows": 288,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2021-2021",
+      "train_start": 2021,
+      "train_end": 2021,
+      "train_rows": 1032,
+      "train_coins": 79,
+      "train_2020_rows": 0,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2021-2022",
+      "train_start": 2021,
+      "train_end": 2022,
+      "train_rows": 3161,
+      "train_coins": 97,
+      "train_2020_rows": 0,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2021-2023",
+      "train_start": 2021,
+      "train_end": 2023,
+      "train_rows": 6097,
+      "train_coins": 149,
+      "train_2020_rows": 0,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2021-2024",
+      "train_start": 2021,
+      "train_end": 2024,
+      "train_rows": 10998,
+      "train_coins": 234,
+      "train_2020_rows": 0,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2022-2022",
+      "train_start": 2022,
+      "train_end": 2022,
+      "train_rows": 2127,
+      "train_coins": 97,
+      "train_2020_rows": 0,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2022-2023",
+      "train_start": 2022,
+      "train_end": 2023,
+      "train_rows": 5063,
+      "train_coins": 149,
+      "train_2020_rows": 0,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2022-2024",
+      "train_start": 2022,
+      "train_end": 2024,
+      "train_rows": 9964,
+      "train_coins": 234,
+      "train_2020_rows": 0,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2023-2023",
+      "train_start": 2023,
+      "train_end": 2023,
+      "train_rows": 2930,
+      "train_coins": 149,
+      "train_2020_rows": 0,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2023-2024",
+      "train_start": 2023,
+      "train_end": 2024,
+      "train_rows": 7831,
+      "train_coins": 234,
+      "train_2020_rows": 0,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    },
+    {
+      "model": "2024-2024",
+      "train_start": 2024,
+      "train_end": 2024,
+      "train_rows": 4840,
+      "train_coins": 232,
+      "train_2020_rows": 0,
+      "feature_count": 59,
+      "threshold_usdt": 0.26
+    }
+  ]
+}

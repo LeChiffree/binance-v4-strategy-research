@@ -1,0 +1,5 @@
+{
+  "closed_bar_cutoff_ms": 1792281600000,
+  "source": "D:/1mDataBinance/1m monthly and daily USD-M Futures archives",
+  "rule": "last complete UTC day"
+}

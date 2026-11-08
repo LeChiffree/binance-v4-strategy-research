@@ -2,7 +2,9 @@
 from __future__ import annotations
 
 import concurrent.futures
+import argparse
 import json
+import os
 import threading
 import time
 from pathlib import Path
@@ -12,7 +14,7 @@ import pandas as pd
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "data/active_525/futures_bars"
+OUT = Path(os.environ.get("BINANCE_DATA_ROOT", ROOT / "data/binance")) / "active_525/futures_bars"
 OUT.mkdir(parents=True, exist_ok=True)
 SOURCE = json.loads((ROOT / "output/binance_futures_exchange_info_2026-10-18.json").read_text(encoding="utf-8"))
 CONTRACTS = sorted((x for x in SOURCE["symbols"] if x.get("status") == "TRADING"
@@ -94,8 +96,17 @@ def fetch(contract: dict, tf: str, cutoff: int) -> dict:
 
 
 if __name__ == "__main__":
-    clock = requests.get("https://fapi.binance.com/fapi/v1/time", timeout=20).json()["serverTime"]
-    cutoff = int(clock // 3_600_000 * 3_600_000)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--latest", action="store_true",
+                        help="Use current last closed hour instead of the frozen published cutoff")
+    args = parser.parse_args()
+    frozen = json.loads((ROOT / "data/active_525/cutoff.json").read_text(encoding="utf-8"))
+    if args.latest:
+        clock = requests.get("https://fapi.binance.com/fapi/v1/time", timeout=20).json()["serverTime"]
+        cutoff = int(clock // 3_600_000 * 3_600_000)
+    else:
+        cutoff = int(frozen["closed_bar_cutoff_ms"])
+        clock = cutoff
     (OUT.parent / "cutoff.json").write_text(json.dumps({"server_time_ms": clock,
         "closed_bar_cutoff_ms": cutoff}, indent=2), encoding="utf-8")
     jobs = [(c, tf) for c in CONTRACTS for tf in DURATIONS]

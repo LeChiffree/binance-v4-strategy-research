@@ -72,7 +72,9 @@ def metrics_from_df(g):
         return {
             "trades": 0, "wins": 0, "losses": 0, "winRate": 0.0, "retAll": 0.0,
             "ret2026": 0.0, "winRatio": 0.0, "winHoldH": 0.0, "holdH": 0.0,
-            "profitDays": 0, "lossDays": 0, "maxDD": 0.0, "kasaAll": 0.0,
+            "profitDays": 0, "lossDays": 0,
+            "profitWeeks": 0, "lossWeeks": 0,
+            "profitMonths": 0, "lossMonths": 0, "maxDD": 0.0, "kasaAll": 0.0,
             "sumR": 0.0, "pf": 0.0,
         }
     net = g["net_pnl_usdt"].to_numpy(dtype=np.float64)
@@ -81,7 +83,13 @@ def metrics_from_df(g):
     losses = n - wins
     hold = g["holding_minutes"].to_numpy(dtype=np.float64)
     g26 = g[g["entry_year"].to_numpy(dtype=np.int64) == 2026]
-    days = pd.Series(net).groupby((g["exit_time"].to_numpy(dtype=np.int64) // 86400000)).sum()
+    day_idx = g["exit_time"].to_numpy(dtype=np.int64) // 86400000
+    days = pd.Series(net).groupby(day_idx).sum()
+    day_numbers = days.index.to_numpy(dtype=np.int64)
+    week_idx = day_numbers - ((day_numbers + 3) % 7)  # epoch gun 0 = Persembe, Pazartesi=0
+    weekly = days.groupby(week_idx).sum()
+    month_idx = pd.to_datetime(day_numbers, unit="D", utc=True).strftime("%Y-%m")
+    monthly = days.groupby(month_idx).sum()
     cum = days.cumsum().to_numpy()
     peak = np.maximum.accumulate(cum)
     dd = float((cum - peak).min()) if len(cum) else 0.0
@@ -99,6 +107,10 @@ def metrics_from_df(g):
         "holdH": float(hold.mean()) / 60.0,
         "profitDays": int((days > 0).sum()),
         "lossDays": int((days < 0).sum()),
+        "profitWeeks": int((weekly > 0).sum()),
+        "lossWeeks": int((weekly < 0).sum()),
+        "profitMonths": int((monthly > 0).sum()),
+        "lossMonths": int((monthly < 0).sum()),
         "maxDD": dd,
         "kasaAll": float(net.sum()),
         "sumR": float(net.sum()) / STAKE,
@@ -418,7 +430,10 @@ def main():
                 "n_winRate", "s_winRate", "n_retAll", "s_retAll", "delta_retAll",
                 "n_ret2026", "s_ret2026", "n_winRatio", "s_winRatio",
                 "n_winHoldH", "s_winHoldH", "n_profitDays", "s_profitDays",
-                "n_lossDays", "s_lossDays", "n_maxDD", "s_maxDD",
+                "n_lossDays", "s_lossDays",
+                "n_profitWeeks", "s_profitWeeks", "n_lossWeeks", "s_lossWeeks",
+                "n_profitMonths", "s_profitMonths", "n_lossMonths", "s_lossMonths",
+                "n_maxDD", "s_maxDD",
                 "n_kasaAll", "s_kasaAll", "delta_kasa"]
     with open(os.path.join(args.out, "singular_rows.csv"), "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=row_cols, extrasaction="ignore")

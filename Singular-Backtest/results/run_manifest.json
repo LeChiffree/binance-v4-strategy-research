@@ -1,6 +1,6 @@
 {
   "repo": "binance-v4-strategy-research",
-  "generated_at": "2026-11-17T20:44:10Z",
+  "generated_at": "2026-11-18T18:18:47Z",
   "scope": "variant",
   "scope_label": "Formasyon + varyant (pattern_id+variant), tum asama ve coinde tek pozisyon",
   "symbols": 511,
@@ -10,5 +10,5 @@
   "singular_trades": 25370,
   "blocked": 4360,
   "blocked_pct": 14.6653,
-  "elapsed_sec": 45.5
+  "elapsed_sec": 64.1
 }

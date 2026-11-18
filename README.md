@@ -60,3 +60,17 @@ Son paper yapılandırması aşama `123` ve şu üç 4h dalını kullanır:
 
 Ana model `models/v4_2020_2024.joblib` dosyasıdır.
 
+
+## Singular-Backtest
+
+[`Singular-Backtest/`](./Singular-Backtest/README.md), aynı coinde aynı strateji
+için aynı anda **tek açık işlem** kuralını uygular. Varsayılan kapsam
+**formasyon + varyant (`pattern_id+variant`), beş aşama ve tüm coinde tek
+pozisyon**; `--scope=pattern` ve `--scope=portfolio` alternatifleri vardır.
+Beş kümülatif aşama ayrı filtre akışı gibi ele alınır; normal metrikler işlem
+düzeyindeki `trades.parquet` kayıtlarından yeniden üretilir.
+
+```bash
+python Singular-Backtest/run_singular.py
+python Singular-Backtest/verify_singular.py
+```
